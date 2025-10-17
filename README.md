@@ -4,6 +4,7 @@
 - Typescript.
 
 ## Getting Started
+![Uploading Screenshot 2025-10-17 192125.png…]()
 
 First, run the development server:
 
