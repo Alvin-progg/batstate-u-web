@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "BSIT",
   description: "Mabini Red Spartans",
+  icons: {
+    icon: "/logo.png",
+  },
 };
 
 export default function RootLayout({
