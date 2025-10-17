@@ -3,8 +3,10 @@
 - TailwindCSS.
 - Typescript.
 
-## Getting Started
 ![Uploading Screenshot 2025-10-17 192125.png…]()
+
+## Getting Started
+
 
 First, run the development server:
 
