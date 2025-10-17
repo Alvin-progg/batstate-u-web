@@ -1,7 +1,7 @@
 ## Techstack Used:
-Nextjs
-TailwindCSS
-Typescript
+- Nextjs.
+- TailwindCSS.
+- Typescript.
 
 ## Getting Started
 
