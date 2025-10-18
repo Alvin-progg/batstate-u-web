@@ -11,10 +11,10 @@ export const Info = () => {
       <div className="max-w-5xl mx-auto px-6">
         <header className="text-center mb-12">
           <h2 className="text-sm font-semibold text-red-600 uppercase tracking-wide">
-            Bachelor of Science in Business Administration
+            Bachelor of Science in Information Technology
           </h2>
           <h1 className="text-4xl font-bold text-red-700 mt-2">
-            Financial Management
+            Business Analytics
           </h1>
         </header>
 
