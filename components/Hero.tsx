@@ -21,7 +21,7 @@ export default function Hero() {
             width={150} 
             height={150} 
             priority={true}
-            className="w-24 h-24 sm:w-32 sm:h-32 md:w-36 md:h-36"
+            className=""
           />
           <div className="flex flex-col items-center sm:items-start text-center sm:text-left">
             <h2 className="text-lg sm:text-xl md:text-2xl font-semibold">
@@ -34,9 +34,9 @@ export default function Hero() {
           </div>
         </div>
         <div className="text-red-600 text-base sm:text-lg md:text-xl font-bold text-center md:text-left">
-          <h3>Leading Innovation</h3>
-          <h3>Transforming Lives</h3>
-          <h3>Building The Nation</h3>
+          <h4>Leading Innovation</h4>
+          <h4>Transforming Lives</h4>
+          <h4>Building The Nation</h4>
         </div>
       </div>
     </section>
