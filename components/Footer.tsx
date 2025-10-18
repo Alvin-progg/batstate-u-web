@@ -1,4 +1,4 @@
-
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -16,9 +16,9 @@ export default function Footer() {
         <p className="italic font-medium max-md:text-sm">
           for queries and/or assistance:
         </p>
-        <p className="opacity-90 max-md:text-sm">
+        <Link rel="email" href="mailto:mabini@g.batstate-u.edu.ph" className="opacity-90 max-md:text-sm">
           mabini@g.batstate-u.edu.ph
-        </p>
+        </Link>
       </div>
     </footer>
   );
