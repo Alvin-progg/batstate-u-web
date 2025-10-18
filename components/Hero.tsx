@@ -4,6 +4,7 @@ export default function Hero() {
     <section className="h-screen flex items-center justify-center px-4">
       <video
         autoPlay
+        
         loop
         muted
         playsInline
@@ -19,7 +20,7 @@ export default function Hero() {
             alt="Hero Image" 
             width={150} 
             height={150} 
-            loading="lazy"
+            priority={true}
             className="w-24 h-24 sm:w-32 sm:h-32 md:w-36 md:h-36"
           />
           <div className="flex flex-col items-center sm:items-start text-center sm:text-left">
