@@ -27,7 +27,7 @@ export const infoLinks = [
       { name: "Curriculum", href: "#" },
       { name: "Certificate of Program Compliance", href: "#" },
       {
-        name: "CMO 17 s2017. Policies, Standards and Guidelines for BSBA",
+        name: "CMO 17 s2017. Policies, Standards and Guidelines for BSIT",
         href: "#",
       },
       {
