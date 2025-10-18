@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 export default function Nav() {
   return (
-    <nav className="fixed top-0 left-0  w-full bg-white shadow-md z-10">
+    <nav className="fixed top-0 left-0  w-full bg-white shadow-md z-30">
       <div className=" gap-4 px-4 py-2 w-fit">
         <Link className="flex items-center gap-4" href="/">
           <Image src="/logo.png" alt="Logo" width={50} height={50} />
