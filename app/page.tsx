@@ -13,7 +13,7 @@ export default function Home() {
       <main>
         <Area />
       </main>
-      <footer className="flex items-center justify-center bg-red-500 h-50">
+      <footer className="flex items-center justify-center bg-[#BE3A37] h-50">
         <Footer />
       </footer>
     </>
