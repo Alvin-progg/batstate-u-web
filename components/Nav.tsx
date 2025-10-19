@@ -13,7 +13,7 @@ export default function Nav() {
             <Image src="/logo.png" alt="Logo" width={50} height={50} />
             <h1 className="font-semibold text-xl">
               {pathname === "/"
-                ? "Mabini Red Spartans"
+                ? "Information Technology"
                 : "Financial Management"}
             </h1>
           </Link>
