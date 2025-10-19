@@ -20,7 +20,7 @@ export default function Area() {
                   {area.description}
                 </p>
                 <Link
-                  href="#"
+                  href={area.href}
                   className="w-fit text-sm italic text-gray-600 font-semibold"
                 >
                   Read more...
