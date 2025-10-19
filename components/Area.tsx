@@ -4,9 +4,9 @@ import Image from "next/image";
 
 export default function Area() {
   return (
-    <section className="flex items-center justify-center w-full overflow-hidden">
-      <div className="flex my-8 gap-2.5">
-        <ul className="flex flex-col gap-8 ">
+    <section className="flex items-center justify-center w-full overflow-hidden px-4 lg:px-0">
+      <div className="flex flex-col lg:flex-row my-8 gap-6 lg:gap-2.5">
+        <ul className="flex flex-col gap-6 lg:gap-8">
           {areaInfo.map((area) => (
             <li key={area.id} className="flex flex-col gap-1">
               <div className="flex items-center gap-4">
@@ -16,7 +16,7 @@ export default function Area() {
                 <h2 className="text-md text-red-600 font-bold">{area.title}</h2>
               </div>
               <div className="px-10">
-                <p className="text-gray-700 text-sm w-[560px] italic">
+                <p className="text-gray-700 text-sm w-full lg:w-[560px] italic">
                   {area.description}
                 </p>
                 <Link
@@ -29,7 +29,7 @@ export default function Area() {
             </li>
           ))}
         </ul>
-        <div className="w-[380px]">
+        <div className="w-full lg:w-[380px]">
           <Link
             href="https://batstateu.edu.ph/"
             target="_blank"
@@ -40,26 +40,26 @@ export default function Area() {
               alt="Area Image"
               width={380}
               height={380}
-              className=""
+              className="w-full h-auto"
             />
             <div className="flex flex-col items-center justify-center gap-5 mt-4">
-              <h2 className="text-xl font-bold text-red-600 ">
-                Batangas State University The Nation  Engineering University
+              <h2 className="text-xl font-bold text-red-600 text-center lg:text-left">
+                Batangas State University The National Engineering University
               </h2>
-              <p className="tracking-wider text-gray-700">Welcome to Batangas State University! The Nation  Engineering University that develops leaders in the global knowledge economy.</p>
+              <p className="tracking-wider text-gray-700 text-center lg:text-left">
+                Welcome to Batangas State University! The National Engineering University that develops leaders in the global knowledge economy.
+              </p>
             </div>
           </Link>
-              <div className="flex justify-center items-center my-6">
-                <iframe
-                  width="560"
-                  height="214"
-                  src="https://www.youtube.com/embed/Pb61NjXrJCg"
-                  title="Batangas State University - The National Engineering University"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                ></iframe>
-              </div>
+          <div className="flex justify-center items-center my-6">
+            <iframe
+              className="w-full max-w-[560px] h-[214px]"
+              src="https://www.youtube.com/embed/Pb61NjXrJCg"
+              title="Batangas State University - The National Engineering University"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
         </div>
       </div>
     </section>
