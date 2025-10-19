@@ -13,9 +13,9 @@ export const Info = () => {
           <h2 className="text-sm font-semibold text-red-600 uppercase tracking-wide">
             Bachelor of Science in Information Technology
           </h2>
-          <h1 className="text-4xl font-bold text-red-700 mt-2">
+          <h3 className="text-4xl font-bold text-red-700 mt-2">
             Business Analytics
-          </h1>
+          </h3>
         </header>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
