@@ -29,7 +29,7 @@ export default function Area() {
             </li>
           ))}
         </ul>
-        <div>
+        <div className="w-[380px]">
           <Link
             href="https://batstateu.edu.ph/"
             target="_blank"
@@ -40,12 +40,15 @@ export default function Area() {
               alt="Area Image"
               width={380}
               height={380}
-              className="ml-12 mt-4"
+              className=""
             />
+            <div className="flex flex-col items-center justify-center  mt-4">
+              <h2 className="text-xl font-bold text-red-600 ">
+                Batangas State University The Nation  Engineering University
+              </h2>
+              <p>Welcome to Batangas State University! The Nation  Engineering University that develops leaders in the global knowledge economy.</p>
+            </div>
           </Link>
-          <div>
-            <h2>Batangas State University The Nation Engineering University</h2>
-          </div>
         </div>
       </div>
     </section>
