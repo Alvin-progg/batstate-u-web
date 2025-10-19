@@ -6,7 +6,7 @@ export default function Area() {
   return (
     <section className="flex items-center justify-center w-full overflow-hidden">
       <div className="flex my-8 gap-2.5">
-        <ul className="flex flex-col gap-8 ">
+        <ul className="flex flex-col gap-8 p-2 ">
           {areaInfo.map((area) => (
             <li key={area.id} className="flex flex-col gap-1">
               <div className="flex items-center gap-4">
@@ -16,7 +16,7 @@ export default function Area() {
                 <h2 className="text-md text-red-600 font-bold">{area.title}</h2>
               </div>
               <div className="px-10">
-                <p className="text-gray-700 text-sm w-[560px] italic">
+                <p className="text-gray-600  text-sm w-[560px] italic">
                   {area.description}
                 </p>
                 <Link
