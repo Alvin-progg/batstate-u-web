@@ -41,6 +41,7 @@ export default function Area() {
               width={380}
               height={380}
               className="ml-12 mt-4"
+              loading="lazy"
             />
           </Link>
         </div>
