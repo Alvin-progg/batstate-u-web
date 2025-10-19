@@ -40,7 +40,7 @@ export default function Area() {
               alt="Area Image"
               width={380}
               height={380}
-              className="w-full h-auto"
+              className="w-full max-w-[280px] sm:max-w-[320px] md:max-w-[350px] lg:w-full h-auto mx-auto lg:mx-0"
             />
             <div className="flex flex-col items-center justify-center gap-5 mt-4">
               <h2 className="text-xl font-bold text-red-600 text-center lg:text-left">
