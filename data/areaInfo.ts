@@ -33,8 +33,8 @@ export const areaInfo = [
         {
         id: 6,
         number: "6",
-        title: "The BSBA-FM program is deeply committed to community involvement and extension services. Through financial literacy programs, business ",
-        description: "Description for Area 3"
+        title: "EXTENSION AND COMMUNITY INVOLVEMENT",
+        description: "The BSBA-FM program is deeply committed to community involvement and extension services. Through financial literacy programs, business"
     },
         {
         id: 7,
