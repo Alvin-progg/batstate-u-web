@@ -42,13 +42,24 @@ export default function Area() {
               height={380}
               className=""
             />
-            <div className="flex flex-col items-center justify-center  mt-4">
+            <div className="flex flex-col items-center justify-center gap-5 mt-4">
               <h2 className="text-xl font-bold text-red-600 ">
                 Batangas State University The Nation  Engineering University
               </h2>
-              <p>Welcome to Batangas State University! The Nation  Engineering University that develops leaders in the global knowledge economy.</p>
+              <p className="tracking-wider text-gray-700">Welcome to Batangas State University! The Nation  Engineering University that develops leaders in the global knowledge economy.</p>
             </div>
           </Link>
+              <div className="flex justify-center items-center my-6">
+                <iframe
+                  width="560"
+                  height="214"
+                  src="https://www.youtube.com/embed/Pb61NjXrJCg"
+                  title="Batangas State University - The National Engineering University"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
         </div>
       </div>
     </section>
