@@ -8,9 +8,9 @@ export default async function AreaPage() {
       <section className="bg-red text-white py-10">
         <div className="max-w-[1200px] mx-auto px-8 flex justify-between items-center">
           <div>
-            <h1 className="text-2xl font-bold">Area 1</h1>
+            <h1 className="text-2xl font-bold">Area 6</h1>
             <p className="text-lg opacity-90 mt-2">
-              Vision, Mission, Goals, and Objectives
+              EXTENSION AND COMMUNITY INVOLVEMENT
             </p>
           </div>
 
