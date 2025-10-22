@@ -10,7 +10,7 @@ export const infoLinks = [
   {
     title: "Program of Activities",
     icon: BookOpen,
-    href: "#",
+    href: "/activity",
     group: "General Information",
   },
   {
