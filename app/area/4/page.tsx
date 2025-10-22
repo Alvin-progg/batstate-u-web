@@ -7,9 +7,9 @@ export default async function Area4Page4() {
     <main className="min-h-screen flex flex-col bg-gray-50">
       <section className="bg-red text-white px-8 py-10 flex justify-center items-center gap-80">
         <div className="py-4">
-          <h1 className="text-2xl font-bold">Area 3</h1>
+          <h1 className="text-2xl font-bold">Area 4</h1>
           <p className="text-lg opacity-90 mt-2">
-            Vision, Mission, Goals, and Objectives
+            SUPPORT TO STUDENTS
           </p>
         </div>
         <div className="mt-6 md:mt-0 text-sm text-left">

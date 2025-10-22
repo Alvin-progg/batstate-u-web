@@ -9,7 +9,7 @@ export default async function AreaPage2() {
         <div className="py-4">
           <h1 className="text-2xl font-bold">Area 2</h1>
           <p className="text-lg opacity-90 mt-2">
-            Vision, Mission, Goals, and Objectives
+            FACULTY
           </p>
         </div>
         <div className="mt-6 md:mt-0 text-sm text-left">
