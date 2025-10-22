@@ -3,8 +3,6 @@ import { FileText } from "lucide-react";
 import Link from "next/link";
 
 export default async function AreaPage1() {
-
-
   return (
     <main className="min-h-screen flex flex-col bg-gray-50">
       <section className="bg-red text-white px-8 py-10 flex justify-center items-center gap-80">
@@ -24,6 +22,7 @@ export default async function AreaPage1() {
           <p className="opacity-90">sherry.delmundo@g.batstate-u.edu.ph</p>
         </div>
       </section>
+
       <section className="px-8 md:px-16 py-10 text-gray-800 leading-relaxed flex justify-center gap-50">
         <p className="italic text-red w-[493px] h-[95px] mr-10">
           The VMGO effectively integrates the university&apos;s aspirations to
@@ -46,43 +45,45 @@ export default async function AreaPage1() {
       </section>
 
       <section className="w-full">
-        <div className="flex justify-center gap-56 py-10  items-center">
-          <div className="flex flex-col gap-8">
-            <div className="flex flex-col gap-2">
-              <h3 className="text-lg font-semibold text-red uppercase">
-                Parameter A
-              </h3>
-              <p className="font-medium mt-1 text-red-700">
-                Statement of Vision, Mission, Goals and Objectives
-              </p>
-              <ol className="mt-2 flex-col gap-2 text-gray-700">
-                <Link href="#"><li>1. SYSTEM. Inputs and Processes</li></Link>
-                <Link href="#"><li>2. IMPLEMENTATION</li></Link>
-                <Link href="#"><li>3. OUTCOMES</li></Link>
-              </ol>
+        <div className="grid place-items-center py-10">
+          <div className="grid grid-cols-2 gap-x-56">
+            <div className="flex flex-col gap-8">
+              <div className="flex flex-col gap-2">
+                <h3 className="text-lg font-semibold text-red uppercase">
+                  Parameter A
+                </h3>
+                <p className="font-medium mt-1 text-red-700">
+                  Statement of Vision, Mission, Goals and Objectives
+                </p>
+                <ol className="mt-2 flex flex-col gap-2 text-gray-700">
+                  <Link href="#"><li>1. SYSTEM. Inputs and Processes</li></Link>
+                  <Link href="#"><li>2. IMPLEMENTATION</li></Link>
+                  <Link href="#"><li>3. OUTCOMES</li></Link>
+                </ol>
+              </div>
+              <div className="flex flex-col gap-2">
+                <h3 className="text-lg font-semibold text-red uppercase">
+                  Parameter B
+                </h3>
+                <p className="font-medium mt-1 text-red-700">
+                  Dissemination and Acceptability
+                </p>
+                <ol className="mt-2 flex flex-col gap-2 text-gray-700">
+                  <Link href="#"><li>1. SYSTEM. Inputs and Processes</li></Link>
+                  <Link href="#"><li>2. IMPLEMENTATION</li></Link>
+                  <Link href="#"><li>3. OUTCOMES</li></Link>
+                </ol>
+              </div>
             </div>
-            <div>
-              <h3 className="text-lg font-semibold text-red uppercase">
-                Parameter B
-              </h3>
-              <p className="font-medium mt-1 text-red-700">
-                Dissemination and Acceptability
-              </p>
-              <ol className="mt-2 flex-col gap-2 text-gray-700">
-                <Link href="#"><li>1. SYSTEM. Inputs and Processes</li></Link>
-                <Link href="#"><li>2. IMPLEMENTATION</li></Link>
-                <Link href="#"><li>3. OUTCOMES</li></Link>
-              </ol>
+            <div className="flex justify-center items-center">
+              <iframe
+                className="w-[350px] h-[200px]"
+                src="https://www.youtube.com/embed/Pb61NjXrJCg"
+                title="Batangas State University - The National Engineering University"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
             </div>
-          </div>
-          <div className="flex justify-center items-center my-6">
-            <iframe
-              className="w-[350px] h-[200px]"
-              src="https://www.youtube.com/embed/Pb61NjXrJCg"
-              title="Batangas State University - The National Engineering University"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
           </div>
         </div>
       </section>

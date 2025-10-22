@@ -16,14 +16,15 @@ export default async function AreaPage3() {
           <p className="italic opacity-80">
             for queries and/or assistance, contact the Focal Person
           </p>
-          <div className="flex flex-col ">
+          <div className="flex flex-col">
             <p className="font-semibold">Mr. John Robert D. Atienza</p>
             <p className="opacity-90">johnrobert.atienza@g.batstate-u.edu.ph</p>
           </div>
         </div>
       </section>
+
       <section className="px-8 md:px-16 py-10 text-gray-800 leading-relaxed flex justify-center gap-50">
-        <p className="italic text-red w-[493px] h-[95px] mr-10 ">
+        <p className="italic text-red w-[493px] h-[95px] mr-10">
           The VMGO effectively integrates the university&apos;s aspirations to
           lead in the global knowledge economy, its mission to nurture leaders
           through innovative education and impactful research, and its core
@@ -52,8 +53,8 @@ export default async function AreaPage3() {
       </section>
 
       <section className="w-full">
-        <div className="flex flex-col justify-center gap-20  py-10  items-center">
-          <div className="flex  gap-86">
+        <div className="grid place-items-center gap-20 py-10 ml-34">
+          <div className="grid grid-cols-2 gap-x-[21.5rem]">
             <div className="flex flex-col gap-2">
               <h3 className="text-lg font-semibold text-red uppercase">
                 Parameter A
@@ -61,7 +62,7 @@ export default async function AreaPage3() {
               <p className="font-medium mt-1 text-red-700">
                 Statement of Vision, Mission, Goals and Objectives
               </p>
-              <ol className="mt-2 flex-col gap-2 text-gray-700">
+              <ol className="mt-2 flex flex-col gap-2 text-gray-700">
                 <Link href="#">
                   <li>1. SYSTEM. Inputs and Processes</li>
                 </Link>
@@ -73,94 +74,14 @@ export default async function AreaPage3() {
                 </Link>
               </ol>
             </div>
-            <div>
+            <div className="flex flex-col gap-2">
               <h3 className="text-lg font-semibold text-red uppercase">
                 Parameter B
               </h3>
               <p className="font-medium mt-1 text-red-700">
                 Dissemination and Acceptability
               </p>
-              <ol className="mt-2 flex-col gap-2 text-gray-700">
-                <Link href="#">
-                  <li>1. SYSTEM. Inputs and Processes</li>
-                </Link>
-                <Link href="#">
-                  <li>2. IMPLEMENTATION</li>
-                </Link>
-                <Link href="#">
-                  <li>3. OUTCOMES</li>
-                </Link>
-              </ol>
-            </div>
-          </div>
-          <div className="flex  gap-86">
-            <div className="flex flex-col gap-2">
-              <h3 className="text-lg font-semibold text-red uppercase">
-                Parameter C
-              </h3>
-              <p className="font-medium mt-1 text-red-700">
-                Statement of Vision, Mission, Goals and Objectives
-              </p>
-              <ol className="mt-2 flex-col gap-2 text-gray-700">
-                <Link href="#">
-                  <li>1. SYSTEM. Inputs and Processes</li>
-                </Link>
-                <Link href="#">
-                  <li>2. IMPLEMENTATION</li>
-                </Link>
-                <Link href="#">
-                  <li>3. OUTCOMES</li>
-                </Link>
-              </ol>
-            </div>
-            <div>
-              <h3 className="text-lg font-semibold text-red uppercase">
-                Parameter D
-              </h3>
-              <p className="font-medium mt-1 text-red-700">
-                Dissemination and Acceptability
-              </p>
-              <ol className="mt-2 flex-col gap-2 text-gray-700">
-                <Link href="#">
-                  <li>1. SYSTEM. Inputs and Processes</li>
-                </Link>
-                <Link href="#">
-                  <li>2. IMPLEMENTATION</li>
-                </Link>
-                <Link href="#">
-                  <li>3. OUTCOMES</li>
-                </Link>
-              </ol>
-            </div>
-          </div>
-          <div className="flex  gap-86">
-            <div className="flex flex-col gap-2">
-              <h3 className="text-lg font-semibold text-red uppercase">
-                Parameter E
-              </h3>
-              <p className="font-medium mt-1 text-red-700">
-                Statement of Vision, Mission, Goals and Objectives
-              </p>
-              <ol className="mt-2 flex-col gap-2 text-gray-700">
-                <Link href="#">
-                  <li>1. SYSTEM. Inputs and Processes</li>
-                </Link>
-                <Link href="#">
-                  <li>2. IMPLEMENTATION</li>
-                </Link>
-                <Link href="#">
-                  <li>3. OUTCOMES</li>
-                </Link>
-              </ol>
-            </div>
-            <div>
-              <h3 className="text-lg font-semibold text-red uppercase">
-                Parameter F
-              </h3>
-              <p className="font-medium mt-1 text-red-700">
-                Dissemination and Acceptability
-              </p>
-              <ol className="mt-2 flex-col gap-2 text-gray-700">
+              <ol className="mt-2 flex flex-col gap-2 text-gray-700">
                 <Link href="#">
                   <li>1. SYSTEM. Inputs and Processes</li>
                 </Link>
@@ -174,8 +95,87 @@ export default async function AreaPage3() {
             </div>
           </div>
 
-          
-          
+          <div className="grid grid-cols-2 gap-x-[21.5rem]">
+            <div className="flex flex-col gap-2">
+              <h3 className="text-lg font-semibold text-red uppercase">
+                Parameter C
+              </h3>
+              <p className="font-medium mt-1 text-red-700">
+                Statement of Vision, Mission, Goals and Objectives
+              </p>
+              <ol className="mt-2 flex flex-col gap-2 text-gray-700">
+                <Link href="#">
+                  <li>1. SYSTEM. Inputs and Processes</li>
+                </Link>
+                <Link href="#">
+                  <li>2. IMPLEMENTATION</li>
+                </Link>
+                <Link href="#">
+                  <li>3. OUTCOMES</li>
+                </Link>
+              </ol>
+            </div>
+            <div className="flex flex-col gap-2">
+              <h3 className="text-lg font-semibold text-red uppercase">
+                Parameter D
+              </h3>
+              <p className="font-medium mt-1 text-red-700">
+                Dissemination and Acceptability
+              </p>
+              <ol className="mt-2 flex flex-col gap-2 text-gray-700">
+                <Link href="#">
+                  <li>1. SYSTEM. Inputs and Processes</li>
+                </Link>
+                <Link href="#">
+                  <li>2. IMPLEMENTATION</li>
+                </Link>
+                <Link href="#">
+                  <li>3. OUTCOMES</li>
+                </Link>
+              </ol>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-2 gap-x-[21.5rem]">
+            <div className="flex flex-col gap-2">
+              <h3 className="text-lg font-semibold text-red uppercase">
+                Parameter E
+              </h3>
+              <p className="font-medium mt-1 text-red-700">
+                Statement of Vision, Mission, Goals and Objectives
+              </p>
+              <ol className="mt-2 flex flex-col gap-2 text-gray-700">
+                <Link href="#">
+                  <li>1. SYSTEM. Inputs and Processes</li>
+                </Link>
+                <Link href="#">
+                  <li>2. IMPLEMENTATION</li>
+                </Link>
+                <Link href="#">
+                  <li>3. OUTCOMES</li>
+                </Link>
+              </ol>
+            </div>
+            <div className="flex flex-col gap-2">
+              <h3 className="text-lg font-semibold text-red uppercase">
+                Parameter F
+              </h3>
+              <p className="font-medium mt-1 text-red-700">
+                Dissemination and Acceptability
+              </p>
+              <ol className="mt-2 flex flex-col gap-2 text-gray-700">
+                <Link href="#">
+                  <li>1. SYSTEM. Inputs and Processes</li>
+                </Link>
+                <Link href="#">
+                  <li>2. IMPLEMENTATION</li>
+                </Link>
+                <Link href="#">
+                  <li>3. OUTCOMES</li>
+                </Link>
+              </ol>
+            </div>
+          </div>
         </div>
       </section>
     </main>
