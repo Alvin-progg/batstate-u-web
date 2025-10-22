@@ -1,18 +1,15 @@
 import React from "react";
 import { FileText } from "lucide-react";
-interface Props {
-  params: { id: string };
-}
 
-export default async function AreaPage({ params }: Props) {
-  const { id } = await params;
+
+export default async function AreaPage() {
+
 
   return (
     <main className="min-h-screen flex flex-col bg-gray-50">
-
       <section className="bg-red text-white px-8 py-10 flex justify-center items-center gap-80">
         <div className="py-4">
-          <h1 className="text-2xl font-bold">Area {id}</h1>
+          <h1 className="text-2xl font-bold">Area 1</h1>
           <p className="text-lg opacity-90 mt-2">
             Vision, Mission, Goals, and Objectives
           </p>
@@ -22,9 +19,9 @@ export default async function AreaPage({ params }: Props) {
             for queries and/or assistance, contact the Focal Person
           </p>
           <p className="font-semibold">
-            Asst. Prof. ALVIN C. ANDULAN, MBA, CPA
+            Dr. Sherry Joy A. Del Mundo
           </p>
-          <p className="opacity-90">alvin.andulan@g.batstate-u.edu.ph</p>
+          <p className="opacity-90">sherry.delmundo@g.batstate-u.edu.ph</p>
         </div>
       </section>
       <section className="px-8 md:px-16 py-10 text-gray-800 leading-relaxed flex justify-center gap-50">
@@ -52,39 +49,41 @@ export default async function AreaPage({ params }: Props) {
         <div className="flex justify-center gap-56 py-10  items-center">
           <div className="flex flex-col gap-8">
             <div className="flex flex-col gap-2">
-          <h3 className="text-lg font-semibold text-red uppercase">
-            Parameter A
-          </h3>
-          <p className="font-medium mt-1">
-            Statement of Vision, Mission, Goals and Objectives
-          </p>
-          <ol className="mt-2 space-y-1 text-gray-700">
-            <li>1. SYSTEM. Inputs and Processes</li>
-            <li>2. IMPLEMENTATION</li>
-            <li>3. OUTCOMES</li>
-          </ol>
-        </div>
-        <div>
-          <h3 className="text-lg font-semibold text-red uppercase">
-            Parameter B
-          </h3>
-          <p className="font-medium mt-1">Dissemination and Acceptability</p>
-          <ol className="mt-2 space-y-1 text-gray-700">
-            <li>1. SYSTEM. Inputs and Processes</li>
-            <li>2. IMPLEMENTATION</li>
-            <li>3. OUTCOMES</li>
-          </ol>
-        </div>
+              <h3 className="text-lg font-semibold text-red uppercase">
+                Parameter A
+              </h3>
+              <p className="font-medium mt-1">
+                Statement of Vision, Mission, Goals and Objectives
+              </p>
+              <ol className="mt-2 space-y-1 text-gray-700">
+                <li>1. SYSTEM. Inputs and Processes</li>
+                <li>2. IMPLEMENTATION</li>
+                <li>3. OUTCOMES</li>
+              </ol>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold text-red uppercase">
+                Parameter B
+              </h3>
+              <p className="font-medium mt-1">
+                Dissemination and Acceptability
+              </p>
+              <ol className="mt-2 space-y-1 text-gray-700">
+                <li>1. SYSTEM. Inputs and Processes</li>
+                <li>2. IMPLEMENTATION</li>
+                <li>3. OUTCOMES</li>
+              </ol>
+            </div>
           </div>
-        <div className="flex justify-center items-center my-6">
-          <iframe
-            className="w-[350px] h-[200px]"
-            src="https://www.youtube.com/embed/Pb61NjXrJCg"
-            title="Batangas State University - The National Engineering University"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
-        </div>
+          <div className="flex justify-center items-center my-6">
+            <iframe
+              className="w-[350px] h-[200px]"
+              src="https://www.youtube.com/embed/Pb61NjXrJCg"
+              title="Batangas State University - The National Engineering University"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
         </div>
       </section>
     </main>
