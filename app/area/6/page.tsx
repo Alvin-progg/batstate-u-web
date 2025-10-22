@@ -8,7 +8,7 @@ export default async function AreaPage() {
       <section className="bg-red text-white py-10">
         <div className="max-w-[1200px] mx-auto px-8 flex justify-between items-center">
           <div>
-            <h1 className="text-2xl font-bold">Area 1</h1>
+            <h1 className="text-2xl font-bold">Area 6</h1>
             <p className="text-lg opacity-90 mt-2">
               Vision, Mission, Goals, and Objectives
             </p>
@@ -54,26 +54,23 @@ export default async function AreaPage() {
             <h3 className="text-lg font-semibold text-red uppercase">
               Parameter A
             </h3>
-            <p className="font-medium mt-1">
-              Statement of Vision, Mission, Goals and Objectives
-            </p>
-            <ol className="mt-2 space-y-1 text-gray-700">
-              <li>1. SYSTEM. Inputs and Processes</li>
-              <li>2. IMPLEMENTATION</li>
-              <li>3. OUTCOMES</li>
-            </ol>
-          </div>
-
-          {/* === PARAMETER B === */}
-          <div>
-            <h3 className="text-lg font-semibold text-red uppercase">
-              Parameter B
-            </h3>
             <p className="font-medium mt-1">Dissemination and Acceptability</p>
             <ol className="mt-2 space-y-1 text-gray-700">
-              <li>1. SYSTEM. Inputs and Processes</li>
-              <li>2. IMPLEMENTATION</li>
-              <li>3. OUTCOMES</li>
+              <li>
+                <a href="https://drive.google.com/drive/folders/1_Po_jATMEbD63URXmlsJBMBqDeh7zO8F">
+                  1. SYSTEM. Inputs and Processes
+                </a>
+              </li>
+              <li>
+                <a href="https://drive.google.com/drive/folders/1_Po_jATMEbD63URXmlsJBMBqDeh7zO8F">
+                  2. IMPLEMENTATION
+                </a>
+              </li>
+              <li>
+                <a href="https://drive.google.com/drive/folders/1_Po_jATMEbD63URXmlsJBMBqDeh7zO8F">
+                  3. OUTCOMES
+                </a>
+              </li>
             </ol>
           </div>
           {/* === PARAMETER B === */}
@@ -83,21 +80,69 @@ export default async function AreaPage() {
             </h3>
             <p className="font-medium mt-1">Dissemination and Acceptability</p>
             <ol className="mt-2 space-y-1 text-gray-700">
-              <li>1. SYSTEM. Inputs and Processes</li>
-              <li>2. IMPLEMENTATION</li>
-              <li>3. OUTCOMES</li>
+              <li>
+                <a href="https://drive.google.com/drive/folders/1mtlwKwwobosxsVXvW47E81GxEffyMnN7">
+                  1. SYSTEM. Inputs and Processes
+                </a>
+              </li>
+              <li>
+                <a href="https://drive.google.com/drive/folders/1mtlwKwwobosxsVXvW47E81GxEffyMnN7">
+                  2. IMPLEMENTATION
+                </a>
+              </li>
+              <li>
+                <a href="https://drive.google.com/drive/folders/1mtlwKwwobosxsVXvW47E81GxEffyMnN7">
+                  3. OUTCOMES
+                </a>
+              </li>
             </ol>
           </div>
-          {/* === PARAMETER B === */}
+          {/* === PARAMETER C === */}
           <div>
             <h3 className="text-lg font-semibold text-red uppercase">
-              Parameter B
+              Parameter C
             </h3>
             <p className="font-medium mt-1">Dissemination and Acceptability</p>
             <ol className="mt-2 space-y-1 text-gray-700">
-              <li>1. SYSTEM. Inputs and Processes</li>
-              <li>2. IMPLEMENTATION</li>
-              <li>3. OUTCOMES</li>
+              <li>
+                <a href="https://drive.google.com/drive/folders/1JHvjVI3ypOpSjBxY8w91UnQWPP_BLato">
+                  1. SYSTEM. Inputs and Processes
+                </a>
+              </li>
+              <li>
+                <a href="https://drive.google.com/drive/folders/1JHvjVI3ypOpSjBxY8w91UnQWPP_BLato">
+                  2. IMPLEMENTATION
+                </a>
+              </li>
+              <li>
+                <a href="https://drive.google.com/drive/folders/1JHvjVI3ypOpSjBxY8w91UnQWPP_BLato">
+                  3. OUTCOMES
+                </a>
+              </li>
+            </ol>
+          </div>
+          {/* === PARAMETER D === */}
+          <div>
+            <h3 className="text-lg font-semibold text-red uppercase">
+              Parameter D
+            </h3>
+            <p className="font-medium mt-1">Dissemination and Acceptability</p>
+            <ol className="mt-2 space-y-1 text-gray-700">
+              <li>
+                <a href="https://drive.google.com/drive/folders/11k0nbSUrpbOvhZqYWG9Pr2d-bG4WiwOZ">
+                  1. SYSTEM. Inputs and Processes
+                </a>
+              </li>
+              <li>
+                <a href="https://drive.google.com/drive/folders/11k0nbSUrpbOvhZqYWG9Pr2d-bG4WiwOZ">
+                  2. IMPLEMENTATION
+                </a>
+              </li>
+              <li>
+                <a href="https://drive.google.com/drive/folders/11k0nbSUrpbOvhZqYWG9Pr2d-bG4WiwOZ">
+                  3. OUTCOMES
+                </a>
+              </li>
             </ol>
           </div>
         </div>
