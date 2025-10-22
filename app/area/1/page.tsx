@@ -2,7 +2,7 @@ import React from "react";
 import { FileText } from "lucide-react";
 import Link from "next/link";
 
-export default async function AreaPage() {
+export default async function AreaPage1() {
 
 
   return (

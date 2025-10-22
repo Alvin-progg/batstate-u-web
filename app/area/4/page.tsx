@@ -2,12 +2,12 @@ import React from "react";
 import { FileText } from "lucide-react";
 import Link from "next/link";
 
-export default async function AreaPage2() {
+export default async function Area4Page4() {
   return (
     <main className="min-h-screen flex flex-col bg-gray-50">
       <section className="bg-red text-white px-8 py-10 flex justify-center items-center gap-80">
         <div className="py-4">
-          <h1 className="text-2xl font-bold">Area 2</h1>
+          <h1 className="text-2xl font-bold">Area 3</h1>
           <p className="text-lg opacity-90 mt-2">
             Vision, Mission, Goals, and Objectives
           </p>
@@ -17,8 +17,8 @@ export default async function AreaPage2() {
             for queries and/or assistance, contact the Focal Person
           </p>
           <div className="flex flex-col ">
-            <p className="font-semibold">Mr. Joshua C. Abella</p>
-            <p className="opacity-90">joshua.abella@g.batstate-u.edu.ph</p>
+            <p className="font-semibold">Mr. John Robert D. Atienza</p>
+            <p className="opacity-90">johnrobert.atienza@g.batstate-u.edu.ph</p>
           </div>
         </div>
       </section>
@@ -133,88 +133,25 @@ export default async function AreaPage2() {
               </ol>
             </div>
           </div>
-          <div className="flex  gap-86">
-            <div className="flex flex-col gap-2">
-              <h3 className="text-lg font-semibold text-red uppercase">
-                Parameter E
-              </h3>
-              <p className="font-medium mt-1 text-red-700">
-                Statement of Vision, Mission, Goals and Objectives
-              </p>
-              <ol className="mt-2 flex-col gap-2 text-gray-700">
-                <Link href="#">
-                  <li>1. SYSTEM. Inputs and Processes</li>
-                </Link>
-                <Link href="#">
-                  <li>2. IMPLEMENTATION</li>
-                </Link>
-                <Link href="#">
-                  <li>3. OUTCOMES</li>
-                </Link>
-              </ol>
-            </div>
-            <div>
-              <h3 className="text-lg font-semibold text-red uppercase">
-                Parameter F
-              </h3>
-              <p className="font-medium mt-1 text-red-700">
-                Dissemination and Acceptability
-              </p>
-              <ol className="mt-2 flex-col gap-2 text-gray-700">
-                <Link href="#">
-                  <li>1. SYSTEM. Inputs and Processes</li>
-                </Link>
-                <Link href="#">
-                  <li>2. IMPLEMENTATION</li>
-                </Link>
-                <Link href="#">
-                  <li>3. OUTCOMES</li>
-                </Link>
-              </ol>
-            </div>
+          <div className="flex flex-col gap-2 ">
+            <h3 className="text-lg font-semibold text-red uppercase">
+              Parameter E
+            </h3>
+            <p className="font-medium mt-1 text-red-700">
+              Statement of Vision, Mission, Goals and Objectives
+            </p>
+            <ol className="mt-2 flex-col gap-2 text-gray-700">
+              <Link href="#" className="w-fit">
+                <li>1. SYSTEM. Inputs and Processes</li>
+              </Link>
+              <Link href="#">
+                <li>2. IMPLEMENTATION</li>
+              </Link>
+              <Link href="#">
+                <li>3. OUTCOMES</li>
+              </Link>
+            </ol>
           </div>
-          <div className="flex  gap-86">
-            <div className="flex flex-col gap-2">
-              <h3 className="text-lg font-semibold text-red uppercase">
-                Parameter G
-              </h3>
-              <p className="font-medium mt-1 text-red-700">
-                Statement of Vision, Mission, Goals and Objectives
-              </p>
-              <ol className="mt-2 flex-col gap-2 text-gray-700">
-                <Link href="#">
-                  <li>1. SYSTEM. Inputs and Processes</li>
-                </Link>
-                <Link href="#">
-                  <li>2. IMPLEMENTATION</li>
-                </Link>
-                <Link href="#">
-                  <li>3. OUTCOMES</li>
-                </Link>
-              </ol>
-            </div>
-            <div>
-              <h3 className="text-lg font-semibold text-red uppercase">
-                Parameter H
-              </h3>
-              <p className="font-medium mt-1 text-red-700">
-                Dissemination and Acceptability
-              </p>
-              <ol className="mt-2 flex-col gap-2 text-gray-700">
-                <Link href="#">
-                  <li>1. SYSTEM. Inputs and Processes</li>
-                </Link>
-                <Link href="#">
-                  <li>2. IMPLEMENTATION</li>
-                </Link>
-                <Link href="#">
-                  <li>3. OUTCOMES</li>
-                </Link>
-              </ol>
-            </div>
-          </div>
-          
-          
         </div>
       </section>
     </main>

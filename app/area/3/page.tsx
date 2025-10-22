@@ -2,7 +2,7 @@ import React from "react";
 import { FileText } from "lucide-react";
 import Link from "next/link";
 
-export default async function AreaPage() {
+export default async function AreaPage3() {
   return (
     <main className="min-h-screen flex flex-col bg-gray-50">
       <section className="bg-red text-white px-8 py-10 flex justify-center items-center gap-80">
