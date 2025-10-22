@@ -5,10 +5,10 @@ export default function Footer() {
     <footer className="bg-red text-white py-8 px-12 flex justify-center items-center  h-40 space-x-30 max-lg:flex-col max-lg:items-start max-lg:gap-6">
       <div className="max-md:w-full">
         <p className="text-base opacity-90 max-md:text-sm">
-          Bachelor of Science Information Technology
+          Bachelor of Science in
         </p>
         <p className="text-3xl font-bold tracking-wide max-md:text-2xl max-sm:text-xl">
-          Business Analitycs
+          Information Technology
         </p>
       </div>
 
