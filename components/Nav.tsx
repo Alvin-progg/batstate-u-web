@@ -12,9 +12,7 @@ export default function Nav() {
           <Link className="flex items-center gap-4" href="/">
             <Image src="/logo.png" alt="Logo" width={50} height={50} />
             <h1 className="font-semibold text-xl">
-              {pathname === "/"
-                ? "Information Technology"
-                : "Financial Management"}
+              Information Technology
             </h1>
           </Link>
         </div>
