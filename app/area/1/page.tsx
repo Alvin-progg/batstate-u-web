@@ -1,6 +1,6 @@
 import React from "react";
 import { FileText } from "lucide-react";
-
+import Link from "next/link";
 
 export default async function AreaPage() {
 
@@ -36,11 +36,11 @@ export default async function AreaPage() {
           <h2 className="text-xl font-semibold text-red flex items-center gap-2">
             <FileText className="w-5 h-5" /> Access Files
           </h2>
-          <ul className="mt-4 space-y-2 text-gray-700">
-            <li>• OBAQ Instrument for Level 1</li>
-            <li>• Program Performance Profile</li>
-            <li>• Self-Survey</li>
-            <li>• Supplemental Folder</li>
+          <ul className="mt-4 space-y-1 text-gray-700">
+            <Link href="#"><li>• OBAQ Instrument for Level 1</li></Link>
+            <Link href="#"><li>• Program Performance Profile</li></Link>
+            <Link href="#"><li>• Self-Survey</li></Link>
+            <Link href="#"><li>• Supplemental Folder</li></Link>
           </ul>
         </div>
       </section>
@@ -52,26 +52,26 @@ export default async function AreaPage() {
               <h3 className="text-lg font-semibold text-red uppercase">
                 Parameter A
               </h3>
-              <p className="font-medium mt-1">
+              <p className="font-medium mt-1 text-red-700">
                 Statement of Vision, Mission, Goals and Objectives
               </p>
-              <ol className="mt-2 space-y-1 text-gray-700">
-                <li>1. SYSTEM. Inputs and Processes</li>
-                <li>2. IMPLEMENTATION</li>
-                <li>3. OUTCOMES</li>
+              <ol className="mt-2 flex-col gap-2 text-gray-700">
+                <Link href="#"><li>1. SYSTEM. Inputs and Processes</li></Link>
+                <Link href="#"><li>2. IMPLEMENTATION</li></Link>
+                <Link href="#"><li>3. OUTCOMES</li></Link>
               </ol>
             </div>
             <div>
               <h3 className="text-lg font-semibold text-red uppercase">
                 Parameter B
               </h3>
-              <p className="font-medium mt-1">
+              <p className="font-medium mt-1 text-red-700">
                 Dissemination and Acceptability
               </p>
-              <ol className="mt-2 space-y-1 text-gray-700">
-                <li>1. SYSTEM. Inputs and Processes</li>
-                <li>2. IMPLEMENTATION</li>
-                <li>3. OUTCOMES</li>
+              <ol className="mt-2 flex-col gap-2 text-gray-700">
+                <Link href="#"><li>1. SYSTEM. Inputs and Processes</li></Link>
+                <Link href="#"><li>2. IMPLEMENTATION</li></Link>
+                <Link href="#"><li>3. OUTCOMES</li></Link>
               </ol>
             </div>
           </div>

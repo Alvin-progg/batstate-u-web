@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-red text-white py-8 px-12 flex justify-center items-center  h-40 space-x-30 max-lg:flex-col max-lg:items-start max-lg:gap-6">
-      <div className="max-md:w-full">
+    <footer className="bg-red text-white flex  py-10 items-center justify-center gap-96">
+      <div className="w-fit">
         <p className="text-base opacity-90 max-md:text-sm">
           Bachelor of Science in
         </p>
@@ -12,7 +12,7 @@ export default function Footer() {
         </p>
       </div>
 
-      <div className="text-right max-lg:text-left max-md:w-full">
+      <div className=" text-start  w-fit ">
         <p className="italic font-medium max-md:text-sm">
           for queries and/or assistance:
         </p>
