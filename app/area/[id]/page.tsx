@@ -4,8 +4,8 @@ interface Props {
   params: { id: string };
 }
 
-export default function AreaPage({ params }: Props) {
-  const { id } = params;
+export default async function AreaPage({ params }: Props) {
+  const { id } = await params;
 
   return (
     <main className="min-h-screen flex flex-col bg-gray-50">
