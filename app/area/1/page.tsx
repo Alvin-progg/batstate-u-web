@@ -11,79 +11,26 @@ export default async function AreaPage1() {
       description={data.description}
       focalPerson={data.focalPerson}
       files={standardFiles}
+      titleHref="https://drive.google.com/drive/folders/1H8GSVQhRoVFZuDRZp_zAd0qS5RB5LnrE"
       parameters={[
         {
           letter: "A",
-          title: "Academic Qualifications and Professional Experience",
+          title: "Statement of Vision, Mission, Goals and Objectives",
           items: [
-            { name: "SYSTEM. Inputs and Processes", href: "#" },
-            { name: "IMPLEMENTATION", href: "#" },
-            { name: "OUTCOMES", href: "#" },
+            { name: "SYSTEM. Inputs and Processes", href: "https://drive.google.com/drive/folders/1BSU6CJE3PEBMEt5L8Mpiyv_xD1Lgd10M" },
+            { name: "IMPLEMENTATION", href: "https://drive.google.com/drive/folders/1BSU6CJE3PEBMEt5L8Mpiyv_xD1Lgd10M" },
+            { name: "OUTCOMES", href: "https://drive.google.com/drive/folders/1BSU6CJE3PEBMEt5L8Mpiyv_xD1Lgd10M" },
           ],
         },
         {
           letter: "B",
-          title: "Recruitment, Selection and Orientation",
+          title: "Dissemination and Acceptability",
           items: [
-            { name: "SYSTEM. Inputs and Processes", href: "#" },
-            { name: "IMPLEMENTATION", href: "#" },
-            { name: "OUTCOMES", href: "#" },
+            { name: "SYSTEM. Inputs and Processes", href: "https://drive.google.com/drive/folders/139CjRYksgKnt_nKbvb3lAqloRypk0Dec" },
+            { name: "IMPLEMENTATION", href: "https://drive.google.com/drive/folders/139CjRYksgKnt_nKbvb3lAqloRypk0Dec" },
+            { name: "OUTCOMES", href: "https://drive.google.com/drive/folders/139CjRYksgKnt_nKbvb3lAqloRypk0Dec" },
           ],
         },
-                {
-          letter: "C",
-          title: "Faculty Adequacy and Loading",
-          items: [
-            { name: "SYSTEM. Inputs and Processes", href: "#" },
-            { name: "IMPLEMENTATION", href: "#" },
-            { name: "OUTCOMES", href: "#" },
-          ],
-        },
-        {
-          letter: "D",
-          title: "Rank and Tenure",
-          items: [
-            { name: "SYSTEM. Inputs and Processes", href: "#" },
-            { name: "IMPLEMENTATION", href: "#" },
-            { name: "OUTCOMES", href: "#" },
-          ],
-        },
-                {
-          letter: "E",
-          title: "Faculty Development",
-          items: [
-            { name: "SYSTEM. Inputs and Processes", href: "#" },
-            { name: "IMPLEMENTATION", href: "#" },
-            { name: "OUTCOMES", href: "#" },
-          ],
-        },
-        {
-          letter: "F",
-          title: "Professional Performance and Scholarly Works",
-          items: [
-            { name: "SYSTEM. Inputs and Processes", href: "#" },
-            { name: "IMPLEMENTATION", href: "#" },
-            { name: "OUTCOMES", href: "#" },
-          ],
-        },
-                {
-          letter: "G",
-          title: "Salaries, Fringe Benefits and Incentives",
-          items: [
-            { name: "SYSTEM. Inputs and Processes", href: "#" },
-            { name: "IMPLEMENTATION", href: "#" },
-            { name: "OUTCOMES", href: "#" },
-          ],
-        },
-        {
-          letter: "H",
-          title: "Professionalism",
-          items: [
-            { name: "SYSTEM. Inputs and Processes", href: "#" },
-            { name: "IMPLEMENTATION", href: "#" },
-            { name: "OUTCOMES", href: "#" },
-          ],
-        }
       ]}
     />
   );
