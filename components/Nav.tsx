@@ -3,17 +3,29 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+
 export default function Nav() {
   const pathname = usePathname();
   return (
     <header>
-      <nav className="fixed top-0 left-0  w-full bg-white shadow-md z-30">
-        <div className=" gap-4 px-4 py-2 w-fit">
-          <Link className="flex items-center gap-4" href="/">
-            <Image src="/logo.png" alt="Logo" width={50} height={50} />
-            <h1 className="font-semibold text-xl">
-              Information Technology
-            </h1>
+      <nav className="fixed top-0 left-0 w-full h-16 bg-white shadow-md z-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full">
+          <Link className="flex items-center gap-3 h-full" href="/">
+            <Image 
+              src="/logo.png" 
+              alt="BatStateU Logo" 
+              width={40} 
+              height={40}
+              className="w-10 h-10"
+            />
+            <div className="flex flex-col">
+              <h1 className="font-bold text-base sm:text-lg text-gray-800">
+                Information Technology
+              </h1>
+              <p className="text-xs text-gray-600 hidden sm:block">
+                BSIT Program - Mabini Campus
+              </p>
+            </div>
           </Link>
         </div>
       </nav>
