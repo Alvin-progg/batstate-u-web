@@ -25,8 +25,8 @@ export const areaPageData = {
     description:
       "The BSIT curriculum is structured to offer a balanced mix of theoretical and practical learning experiences. The core subjects include financial accounting, managerial accounting, corporate finance, and investment analysis.",
     focalPerson: {
-      name: "Mr. John Robert D. Atienza",
-      email: "johnrobert.atienza@g.batstate-u.edu.ph",
+      name: "Dr. Maricel Z. Fernando",
+      email: "maricel.fernando@g.batstate-u.edu.ph",
     },
     parametersCount: 6,
   },
@@ -35,8 +35,8 @@ export const areaPageData = {
     description:
       "The BSIT program is dedicated to providing a comprehensive and supportive learning environment that nurtures academic success, personal growth, and professional development.",
     focalPerson: {
-      name: "Dr. Maria Santos",
-      email: "maria.santos@g.batstate-u.edu.ph",
+      name: "Mr. Jefferson I. Cañada",
+      email: "jefferson.cañada@g.batstate-u.edu.ph",
     },
     parametersCount: 4,
   },
@@ -45,8 +45,8 @@ export const areaPageData = {
     description:
       "Research is a vital component of the BSIT program, contributing to the academic and professional development of both students and faculty.",
     focalPerson: {
-      name: "Dr. James Cruz",
-      email: "james.cruz@g.batstate-u.edu.ph",
+      name: "Mr. Joshua C. Abella",
+      email: "joshua.abella@g.batstate-u.edu.ph",
     },
     parametersCount: 3,
   },

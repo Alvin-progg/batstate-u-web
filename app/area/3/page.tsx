@@ -14,7 +14,7 @@ export default async function AreaPage3() {
       parameters={[
         {
           letter: "A",
-          title: "Parameter A Title",
+          title: "Curriculum and Program of Studies",
           items: [
             { name: "SYSTEM. Inputs and Processes", href: "#" },
             { name: "IMPLEMENTATION", href: "#" },
@@ -23,7 +23,7 @@ export default async function AreaPage3() {
         },
         {
           letter: "B",
-          title: "Parameter B Title",
+          title: "Instructional Processes, Methodologies and Learning Enhancement Opportunities",
           items: [
             { name: "SYSTEM. Inputs and Processes", href: "#" },
             { name: "IMPLEMENTATION", href: "#" },
@@ -32,7 +32,7 @@ export default async function AreaPage3() {
         },
         {
           letter: "C",
-          title: "Parameter C Title",
+          title: "Assessment of Academic Performance",
           items: [
             { name: "SYSTEM. Inputs and Processes", href: "#" },
             { name: "IMPLEMENTATION", href: "#" },
@@ -41,7 +41,7 @@ export default async function AreaPage3() {
         },
         {
           letter: "D",
-          title: "Parameter D Title",
+          title: "Management of Learning",
           items: [
             { name: "SYSTEM. Inputs and Processes", href: "#" },
             { name: "IMPLEMENTATION", href: "#" },
@@ -50,7 +50,7 @@ export default async function AreaPage3() {
         },
         {
           letter: "E",
-          title: "Parameter E Title",
+          title: "Graduation Requirements",
           items: [
             { name: "SYSTEM. Inputs and Processes", href: "#" },
             { name: "IMPLEMENTATION", href: "#" },
@@ -59,7 +59,7 @@ export default async function AreaPage3() {
         },
         {
           letter: "F",
-          title: "Parameter F Title",
+          title: "Administrative Support for Effective Instruction",
           items: [
             { name: "SYSTEM. Inputs and Processes", href: "#" },
             { name: "IMPLEMENTATION", href: "#" },

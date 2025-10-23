@@ -46,7 +46,7 @@ export default function Area() {
 
                 {/* Read More Link */}
                 <div className="flex items-center text-red-600 font-semibold text-sm group-hover:gap-2 transition-all">
-                  <span>Explore Area</span>
+                  <span>Read more</span>
                   <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </div>
               </div>

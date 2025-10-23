@@ -14,7 +14,7 @@ export default async function AreaPage5() {
       parameters={[
         {
           letter: "A",
-          title: "Parameter A Title",
+          title: "Priorities and Relevance ",
           items: [
             { name: "SYSTEM. Inputs and Processes", href: "#" },
             { name: "IMPLEMENTATION", href: "#" },
@@ -23,7 +23,7 @@ export default async function AreaPage5() {
         },
         {
           letter: "B",
-          title: "Parameter B Title",
+          title: "Funding and Other Resources",
           items: [
             { name: "SYSTEM. Inputs and Processes", href: "#" },
             { name: "IMPLEMENTATION", href: "#" },
@@ -32,7 +32,16 @@ export default async function AreaPage5() {
         },
         {
           letter: "C",
-          title: "Parameter C Title",
+          title: "Implementation, Monitoring, Evaluation and Utilization of Research Results/Outputs",
+          items: [
+            { name: "SYSTEM. Inputs and Processes", href: "#" },
+            { name: "IMPLEMENTATION", href: "#" },
+            { name: "OUTCOMES", href: "#" },
+          ],
+        },
+        {
+          letter: "D",
+          title: "Publication and Dissemination",
           items: [
             { name: "SYSTEM. Inputs and Processes", href: "#" },
             { name: "IMPLEMENTATION", href: "#" },

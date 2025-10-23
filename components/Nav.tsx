@@ -23,7 +23,7 @@ export default function Nav() {
                 Information Technology
               </h1>
               <p className="text-xs text-gray-600 hidden sm:block">
-                BSIT Program - Mabini Campus
+                CICS - Mabini Campus
               </p>
             </div>
           </Link>

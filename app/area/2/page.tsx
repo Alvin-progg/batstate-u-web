@@ -14,7 +14,7 @@ export default async function AreaPage2() {
       parameters={[
         {
           letter: "A",
-          title: "Parameter A Title",
+          title: "Academic Qualifications and Professional Experience",
           items: [
             { name: "SYSTEM. Inputs and Processes", href: "#" },
             { name: "IMPLEMENTATION", href: "#" },
@@ -23,7 +23,7 @@ export default async function AreaPage2() {
         },
         {
           letter: "B",
-          title: "Parameter B Title",
+          title: "Recruitment, Selection and Orientation",
           items: [
             { name: "SYSTEM. Inputs and Processes", href: "#" },
             { name: "IMPLEMENTATION", href: "#" },
@@ -32,7 +32,7 @@ export default async function AreaPage2() {
         },
         {
           letter: "C",
-          title: "Parameter C Title",
+          title: "Faculty Adequacy and Loading",
           items: [
             { name: "SYSTEM. Inputs and Processes", href: "#" },
             { name: "IMPLEMENTATION", href: "#" },
@@ -41,7 +41,7 @@ export default async function AreaPage2() {
         },
         {
           letter: "D",
-          title: "Parameter D Title",
+          title: "Rank and Tenure",
           items: [
             { name: "SYSTEM. Inputs and Processes", href: "#" },
             { name: "IMPLEMENTATION", href: "#" },
@@ -50,7 +50,7 @@ export default async function AreaPage2() {
         },
         {
           letter: "E",
-          title: "Parameter E Title",
+          title: "Faculty Development",
           items: [
             { name: "SYSTEM. Inputs and Processes", href: "#" },
             { name: "IMPLEMENTATION", href: "#" },
@@ -59,7 +59,7 @@ export default async function AreaPage2() {
         },
         {
           letter: "F",
-          title: "Parameter F Title",
+          title: "Professional Performance and Scholarly Works",
           items: [
             { name: "SYSTEM. Inputs and Processes", href: "#" },
             { name: "IMPLEMENTATION", href: "#" },
@@ -68,7 +68,7 @@ export default async function AreaPage2() {
         },
         {
           letter: "G",
-          title: "Parameter G Title",
+          title: "Salaries, Fringe Benefits and Incentives",
           items: [
             { name: "SYSTEM. Inputs and Processes", href: "#" },
             { name: "IMPLEMENTATION", href: "#" },
@@ -77,7 +77,7 @@ export default async function AreaPage2() {
         },
         {
           letter: "H",
-          title: "Parameter H Title",
+          title: "Professionalism",
           items: [
             { name: "SYSTEM. Inputs and Processes", href: "#" },
             { name: "IMPLEMENTATION", href: "#" },

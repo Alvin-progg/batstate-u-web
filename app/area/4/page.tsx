@@ -14,7 +14,7 @@ export default async function AreaPage4() {
       parameters={[
         {
           letter: "A",
-          title: "Parameter A Title",
+          title: "Student Services Program (SSP)",
           items: [
             { name: "SYSTEM. Inputs and Processes", href: "#" },
             { name: "IMPLEMENTATION", href: "#" },
@@ -23,7 +23,7 @@ export default async function AreaPage4() {
         },
         {
           letter: "B",
-          title: "Parameter B Title",
+          title: "Student Welfare",
           items: [
             { name: "SYSTEM. Inputs and Processes", href: "#" },
             { name: "IMPLEMENTATION", href: "#" },
@@ -32,7 +32,7 @@ export default async function AreaPage4() {
         },
         {
           letter: "C",
-          title: "Parameter C Title",
+          title: "Student Development",
           items: [
             { name: "SYSTEM. Inputs and Processes", href: "#" },
             { name: "IMPLEMENTATION", href: "#" },
@@ -41,7 +41,16 @@ export default async function AreaPage4() {
         },
         {
           letter: "D",
-          title: "Parameter D Title",
+          title: "Institutional Student Programs and Services",
+          items: [
+            { name: "SYSTEM. Inputs and Processes", href: "#" },
+            { name: "IMPLEMENTATION", href: "#" },
+            { name: "OUTCOMES", href: "#" },
+          ],
+        },
+        {
+          letter: "E",
+          title: "Research, Monitoring and Evaluation",
           items: [
             { name: "SYSTEM. Inputs and Processes", href: "#" },
             { name: "IMPLEMENTATION", href: "#" },
