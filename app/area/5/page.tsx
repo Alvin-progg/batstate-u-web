@@ -1,5 +1,5 @@
 import AreaPageTemplate from "@/components/AreaPageTemplate";
-import { areaPageData, generateParameters, standardFiles } from "@/data/areaPageData";
+import { areaPageData, standardFiles } from "@/data/areaPageData";
 
 export default async function AreaPage5() {
   const data = areaPageData[5];
@@ -11,7 +11,35 @@ export default async function AreaPage5() {
       description={data.description}
       focalPerson={data.focalPerson}
       files={standardFiles}
-      parameters={generateParameters(data.parametersCount)}
+      parameters={[
+        {
+          letter: "A",
+          title: "Parameter A Title",
+          items: [
+            { name: "SYSTEM. Inputs and Processes", href: "#" },
+            { name: "IMPLEMENTATION", href: "#" },
+            { name: "OUTCOMES", href: "#" },
+          ],
+        },
+        {
+          letter: "B",
+          title: "Parameter B Title",
+          items: [
+            { name: "SYSTEM. Inputs and Processes", href: "#" },
+            { name: "IMPLEMENTATION", href: "#" },
+            { name: "OUTCOMES", href: "#" },
+          ],
+        },
+        {
+          letter: "C",
+          title: "Parameter C Title",
+          items: [
+            { name: "SYSTEM. Inputs and Processes", href: "#" },
+            { name: "IMPLEMENTATION", href: "#" },
+            { name: "OUTCOMES", href: "#" },
+          ],
+        },
+      ]}
     />
   );
 }

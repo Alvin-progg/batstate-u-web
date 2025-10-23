@@ -103,6 +103,7 @@ export const areaPageData = {
 };
 
 // Helper function to generate parameters based on count
+// This creates basic parameters - you should override with custom titles and links in each area page
 export function generateParameters(count: number) {
   const parameters = [];
   const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -110,14 +111,11 @@ export function generateParameters(count: number) {
   for (let i = 0; i < count; i++) {
     parameters.push({
       letter: letters[i],
-      title:
-        i % 2 === 0
-          ? "Statement of Vision, Mission, Goals and Objectives"
-          : "Dissemination and Acceptability",
+      title: "Parameter Title (Update this in your area page)",
       items: [
-        "SYSTEM. Inputs and Processes",
-        "IMPLEMENTATION",
-        "OUTCOMES",
+        { name: "SYSTEM. Inputs and Processes", href: "#" },
+        { name: "IMPLEMENTATION", href: "#" },
+        { name: "OUTCOMES", href: "#" },
       ],
     });
   }

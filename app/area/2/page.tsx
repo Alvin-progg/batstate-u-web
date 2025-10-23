@@ -1,92 +1,87 @@
 import AreaPageTemplate from "@/components/AreaPageTemplate";
+import { areaPageData, standardFiles } from "@/data/areaPageData";
 
 export default async function AreaPage2() {
+  const data = areaPageData[2];
+  
   return (
     <AreaPageTemplate
       areaNumber={2}
-      title="FACULTY"
-      description="The strength of the BSIT program lies in its highly qualified faculty. Our teaching staff comprises professionals with advanced degrees in finance, accounting, and related fields, many of whom bring real-world experience from leading corporations and institutions."
-      focalPerson={{
-        name: "Mr. Joshua C. Abella",
-        email: "joshua.abella@g.batstate-u.edu.ph",
-      }}
-      files={[
-        "OBAQ Instrument for Level 1",
-        "Program Performance Profile",
-        "Self-Survey",
-        "Supplemental Folder",
-      ]}
+      title={data.title}
+      description={data.description}
+      focalPerson={data.focalPerson}
+      files={standardFiles}
       parameters={[
         {
           letter: "A",
-          title: "Statement of Vision, Mission, Goals and Objectives",
+          title: "Parameter A Title",
           items: [
-            "SYSTEM. Inputs and Processes",
-            "IMPLEMENTATION",
-            "OUTCOMES",
+            { name: "SYSTEM. Inputs and Processes", href: "#" },
+            { name: "IMPLEMENTATION", href: "#" },
+            { name: "OUTCOMES", href: "#" },
           ],
         },
         {
           letter: "B",
-          title: "Dissemination and Acceptability",
+          title: "Parameter B Title",
           items: [
-            "SYSTEM. Inputs and Processes",
-            "IMPLEMENTATION",
-            "OUTCOMES",
+            { name: "SYSTEM. Inputs and Processes", href: "#" },
+            { name: "IMPLEMENTATION", href: "#" },
+            { name: "OUTCOMES", href: "#" },
           ],
         },
         {
           letter: "C",
-          title: "Statement of Vision, Mission, Goals and Objectives",
+          title: "Parameter C Title",
           items: [
-            "SYSTEM. Inputs and Processes",
-            "IMPLEMENTATION",
-            "OUTCOMES",
+            { name: "SYSTEM. Inputs and Processes", href: "#" },
+            { name: "IMPLEMENTATION", href: "#" },
+            { name: "OUTCOMES", href: "#" },
           ],
         },
         {
           letter: "D",
-          title: "Dissemination and Acceptability",
+          title: "Parameter D Title",
           items: [
-            "SYSTEM. Inputs and Processes",
-            "IMPLEMENTATION",
-            "OUTCOMES",
+            { name: "SYSTEM. Inputs and Processes", href: "#" },
+            { name: "IMPLEMENTATION", href: "#" },
+            { name: "OUTCOMES", href: "#" },
           ],
         },
         {
           letter: "E",
-          title: "Statement of Vision, Mission, Goals and Objectives",
+          title: "Parameter E Title",
           items: [
-            "SYSTEM. Inputs and Processes",
-            "IMPLEMENTATION",
-            "OUTCOMES",
+            { name: "SYSTEM. Inputs and Processes", href: "#" },
+            { name: "IMPLEMENTATION", href: "#" },
+            { name: "OUTCOMES", href: "#" },
           ],
         },
         {
           letter: "F",
-          title: "Dissemination and Acceptability",
+          title: "Parameter F Title",
           items: [
-            "SYSTEM. Inputs and Processes",
-            "IMPLEMENTATION",
-            "OUTCOMES",
+            { name: "SYSTEM. Inputs and Processes", href: "#" },
+            { name: "IMPLEMENTATION", href: "#" },
+            { name: "OUTCOMES", href: "#" },
           ],
         },
         {
           letter: "G",
-          title: "Statement of Vision, Mission, Goals and Objectives",
+          title: "Parameter G Title",
           items: [
-            "SYSTEM. Inputs and Processes",
-            "IMPLEMENTATION",
-            "OUTCOMES",
+            { name: "SYSTEM. Inputs and Processes", href: "#" },
+            { name: "IMPLEMENTATION", href: "#" },
+            { name: "OUTCOMES", href: "#" },
           ],
         },
         {
           letter: "H",
-          title: "Dissemination and Acceptability",
+          title: "Parameter H Title",
           items: [
-            "SYSTEM. Inputs and Processes",
-            "IMPLEMENTATION",
-            "OUTCOMES",
+            { name: "SYSTEM. Inputs and Processes", href: "#" },
+            { name: "IMPLEMENTATION", href: "#" },
+            { name: "OUTCOMES", href: "#" },
           ],
         },
       ]}
