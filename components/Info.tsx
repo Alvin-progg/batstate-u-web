@@ -54,6 +54,8 @@ export const Info = () => {
                       >
                         <a
                           href={link.href}
+                          target="_blank"
+                          rel="noopener noreferrer"
                           className="block hover:text-red-600 transition-colors"
                         >
                           {link.name}
@@ -75,7 +77,7 @@ export const Info = () => {
                 </h3>
                 <p className="mt-2 text-sm text-gray-500">{item.group}</p>
               </a>
-            ),
+            )
           )}
         </div>
       </div>
