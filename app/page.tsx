@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <Hero />
       <Info />
-      <div className="h-20 bg-red"></div>
+      <div className="h-15 bg-red"></div>
       <Area />
     </>
   );
