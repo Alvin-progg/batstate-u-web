@@ -5,7 +5,10 @@ import Link from "next/link";
 interface Parameter {
   letter: string;
   title: string;
-  items: string[];
+  items: Array<{
+    name: string;
+    href: string;
+  }>;
 }
 
 interface AreaPageTemplateProps {
@@ -120,46 +123,64 @@ export default function AreaPageTemplate({
 
       {/* Parameters Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        {/* Video Section - Full Width on Top for Mobile */}
+        <div className="lg:hidden mb-8">
+          <div className="aspect-video rounded-xl overflow-hidden shadow-lg">
+            <iframe
+              className="w-full h-full"
+              src={videoUrl}
+              title="Batangas State University - The National Engineering University"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+          <p className="text-center text-sm text-gray-600 mt-4">
+            Learn more about Batangas State University
+          </p>
+        </div>
+
         <div className="flex flex-col lg:flex-row gap-8">
-          {/* Left Column - Parameters */}
-          <div className="flex-1 grid grid-cols-1 md:grid-cols-2 gap-6">
-            {parameters.map((param) => (
-              <div
-                key={param.letter}
-                className="bg-white rounded-xl shadow-md border border-gray-100 p-6 hover:shadow-lg transition-shadow"
-              >
-                <div className="border-l-4 border-red-600 pl-4 mb-4">
-                  <h3 className="text-xl font-bold text-red-600 uppercase">
-                    Parameter {param.letter}
-                  </h3>
-                  <p className="font-semibold text-gray-800 mt-2 text-sm">
-                    {param.title}
-                  </p>
+          {/* Parameters Grid */}
+          <div className="flex-1">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {parameters.map((param) => (
+                <div
+                  key={param.letter}
+                  className="bg-white rounded-xl shadow-md border border-gray-100 p-6 hover:shadow-lg transition-shadow"
+                >
+                  <div className="border-l-4 border-red-600 pl-4 mb-4">
+                    <h3 className="text-xl font-bold text-red-600 uppercase">
+                      Parameter {param.letter}
+                    </h3>
+                    <p className="font-semibold text-gray-800 mt-2 text-sm">
+                      {param.title}
+                    </p>
+                  </div>
+                  <ol className="space-y-3">
+                    {param.items.map((item, index) => (
+                      <li key={index}>
+                        <Link
+                          href={item.href}
+                          className="flex items-start gap-3 text-gray-700 hover:text-red-600 transition-colors group text-sm"
+                        >
+                          <span className="font-semibold text-red-600 min-w-[1.5rem]">
+                            {index + 1}.
+                          </span>
+                          <span className="group-hover:translate-x-1 transition-transform">
+                            {item.name}
+                          </span>
+                        </Link>
+                      </li>
+                    ))}
+                  </ol>
                 </div>
-                <ol className="space-y-3">
-                  {param.items.map((item, index) => (
-                    <li key={index}>
-                      <Link
-                        href="#"
-                        className="flex items-start gap-3 text-gray-700 hover:text-red-600 transition-colors group text-sm"
-                      >
-                        <span className="font-semibold text-red-600 min-w-[1.5rem]">
-                          {index + 1}.
-                        </span>
-                        <span className="group-hover:translate-x-1 transition-transform">
-                          {item}
-                        </span>
-                      </Link>
-                    </li>
-                  ))}
-                </ol>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
 
-          {/* Right Column - Video (Sticky) */}
-          <div className="lg:w-96">
-            <div className="lg:sticky lg:top-8">
+          {/* Video - Sticky Sidebar (Desktop Only) */}
+          <div className="hidden lg:block lg:w-96">
+            <div className="sticky top-24">
               <div className="aspect-video rounded-xl overflow-hidden shadow-lg">
                 <iframe
                   className="w-full h-full"
