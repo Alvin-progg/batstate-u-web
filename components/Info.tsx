@@ -68,6 +68,8 @@ export const Info = () => {
             ) : (
               <a
                 key={item.title}
+                                          target="_blank"
+                          rel="noopener noreferrer"
                 href={item.href}
                 className="flex flex-col items-center justify-center p-8 bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
               >
