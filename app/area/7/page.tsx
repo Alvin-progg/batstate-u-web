@@ -3,7 +3,7 @@ import { areaPageData, standardFiles } from "@/data/areaPageData";
 
 export default async function AreaPage7() {
   const data = areaPageData[7];
-  
+
   return (
     <AreaPageTemplate
       areaNumber={7}
@@ -14,7 +14,7 @@ export default async function AreaPage7() {
       parameters={[
         {
           letter: "A",
-          title: "Parameter A Title",
+          title: "Administration",
           items: [
             { name: "SYSTEM. Inputs and Processes", href: "#" },
             { name: "IMPLEMENTATION", href: "#" },
@@ -23,7 +23,7 @@ export default async function AreaPage7() {
         },
         {
           letter: "B",
-          title: "Parameter B Title",
+          title: "Administrative Staff",
           items: [
             { name: "SYSTEM. Inputs and Processes", href: "#" },
             { name: "IMPLEMENTATION", href: "#" },
@@ -32,7 +32,43 @@ export default async function AreaPage7() {
         },
         {
           letter: "C",
-          title: "Parameter C Title",
+          title: "Collection Development, Organization and Perservation",
+          items: [
+            { name: "SYSTEM. Inputs and Processes", href: "#" },
+            { name: "IMPLEMENTATION", href: "#" },
+            { name: "OUTCOMES", href: "#" },
+          ],
+        },
+        {
+          letter: "D",
+          title: "Services and Utilization",
+          items: [
+            { name: "SYSTEM. Inputs and Processes", href: "#" },
+            { name: "IMPLEMENTATION", href: "#" },
+            { name: "OUTCOMES", href: "#" },
+          ],
+        },
+        {
+          letter: "E",
+          title: "Physical Set-up and Facilities",
+          items: [
+            { name: "SYSTEM. Inputs and Processes", href: "#" },
+            { name: "IMPLEMENTATION", href: "#" },
+            { name: "OUTCOMES", href: "#" },
+          ],
+        },
+        {
+          letter: "F",
+          title: "Financial Support",
+          items: [
+            { name: "SYSTEM. Inputs and Processes", href: "#" },
+            { name: "IMPLEMENTATION", href: "#" },
+            { name: "OUTCOMES", href: "#" },
+          ],
+        },
+        {
+          letter: "G",
+          title: "Linkages",
           items: [
             { name: "SYSTEM. Inputs and Processes", href: "#" },
             { name: "IMPLEMENTATION", href: "#" },

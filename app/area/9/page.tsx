@@ -3,7 +3,7 @@ import { areaPageData, standardFiles } from "@/data/areaPageData";
 
 export default async function AreaPage9() {
   const data = areaPageData[9];
-  
+
   return (
     <AreaPageTemplate
       areaNumber={9}
@@ -14,7 +14,7 @@ export default async function AreaPage9() {
       parameters={[
         {
           letter: "A",
-          title: "Parameter A Title",
+          title: "Laboratories, Shops/Facilities",
           items: [
             { name: "SYSTEM. Inputs and Processes", href: "#" },
             { name: "IMPLEMENTATION", href: "#" },
@@ -23,7 +23,7 @@ export default async function AreaPage9() {
         },
         {
           letter: "B",
-          title: "Parameter B Title",
+          title: "Equipment and Supplies",
           items: [
             { name: "SYSTEM. Inputs and Processes", href: "#" },
             { name: "IMPLEMENTATION", href: "#" },
@@ -32,7 +32,7 @@ export default async function AreaPage9() {
         },
         {
           letter: "C",
-          title: "Parameter C Title",
+          title: "Maintenance",
           items: [
             { name: "SYSTEM. Inputs and Processes", href: "#" },
             { name: "IMPLEMENTATION", href: "#" },
@@ -41,16 +41,7 @@ export default async function AreaPage9() {
         },
         {
           letter: "D",
-          title: "Parameter D Title",
-          items: [
-            { name: "SYSTEM. Inputs and Processes", href: "#" },
-            { name: "IMPLEMENTATION", href: "#" },
-            { name: "OUTCOMES", href: "#" },
-          ],
-        },
-        {
-          letter: "E",
-          title: "Parameter E Title",
+          title: "Special",
           items: [
             { name: "SYSTEM. Inputs and Processes", href: "#" },
             { name: "IMPLEMENTATION", href: "#" },

@@ -3,7 +3,7 @@ import { areaPageData, standardFiles } from "@/data/areaPageData";
 
 export default async function AreaPage8() {
   const data = areaPageData[8];
-  
+
   return (
     <AreaPageTemplate
       areaNumber={8}
@@ -14,7 +14,7 @@ export default async function AreaPage8() {
       parameters={[
         {
           letter: "A",
-          title: "Parameter A Title",
+          title: "Campus",
           items: [
             { name: "SYSTEM. Inputs and Processes", href: "#" },
             { name: "IMPLEMENTATION", href: "#" },
@@ -23,7 +23,7 @@ export default async function AreaPage8() {
         },
         {
           letter: "B",
-          title: "Parameter B Title",
+          title: "Buildings",
           items: [
             { name: "SYSTEM. Inputs and Processes", href: "#" },
             { name: "IMPLEMENTATION", href: "#" },
@@ -32,7 +32,7 @@ export default async function AreaPage8() {
         },
         {
           letter: "C",
-          title: "Parameter C Title",
+          title: "Classrooms",
           items: [
             { name: "SYSTEM. Inputs and Processes", href: "#" },
             { name: "IMPLEMENTATION", href: "#" },
@@ -41,7 +41,61 @@ export default async function AreaPage8() {
         },
         {
           letter: "D",
-          title: "Parameter D Title",
+          title: "Office, Staff, and Function Rooms",
+          items: [
+            { name: "SYSTEM. Inputs and Processes", href: "#" },
+            { name: "IMPLEMENTATION", href: "#" },
+            { name: "OUTCOMES", href: "#" },
+          ],
+        },
+        {
+          letter: "E",
+          title: "Physical Set-up and Facilities",
+          items: [
+            { name: "SYSTEM. Inputs and Processes", href: "#" },
+            { name: "IMPLEMENTATION", href: "#" },
+            { name: "OUTCOMES", href: "#" },
+          ],
+        },
+        {
+          letter: "F",
+          title: "Medical and Dental Clinic",
+          items: [
+            { name: "SYSTEM. Inputs and Processes", href: "#" },
+            { name: "IMPLEMENTATION", href: "#" },
+            { name: "OUTCOMES", href: "#" },
+          ],
+        },
+        {
+          letter: "G",
+          title: "Student Center",
+          items: [
+            { name: "SYSTEM. Inputs and Processes", href: "#" },
+            { name: "IMPLEMENTATION", href: "#" },
+            { name: "OUTCOMES", href: "#" },
+          ],
+        },
+        {
+          letter: "H",
+          title: "Food Services/Canteen",
+          items: [
+            { name: "SYSTEM. Inputs and Processes", href: "#" },
+            { name: "IMPLEMENTATION", href: "#" },
+            { name: "OUTCOMES", href: "#" },
+          ],
+        },
+        {
+          letter: "I",
+          title: "Accredation Center",
+          items: [
+            { name: "SYSTEM. Inputs and Processes", href: "#" },
+            { name: "IMPLEMENTATION", href: "#" },
+            { name: "OUTCOMES", href: "#" },
+          ],
+        },
+        {
+          letter: "J",
+          title: "Housing",
           items: [
             { name: "SYSTEM. Inputs and Processes", href: "#" },
             { name: "IMPLEMENTATION", href: "#" },
