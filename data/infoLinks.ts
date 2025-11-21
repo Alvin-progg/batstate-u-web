@@ -16,7 +16,7 @@ export const infoLinks = [
   {
     title: "Directory of Accreditation Task Force",
     icon: Users,
-    href: "https://drive.google.com/file/d/1fHI9w5f-ZSax8rBvVmgNHc3Y7t-gWb9U/view?usp=sharing",
+    href: "https://drive.google.com/file/d/1UHF8RA-tZBpMFYVZE8C02-3iAXzRJNh0/view?usp=sharing",
     group: "General Information",
   },
   {

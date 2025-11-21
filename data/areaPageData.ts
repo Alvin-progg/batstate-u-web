@@ -25,8 +25,8 @@ export const areaPageData = {
     description:
       "The BSIT curriculum is structured to offer a balanced mix of theoretical and practical learning experiences. The core subjects include financial accounting, managerial accounting, corporate finance, and investment analysis.",
     focalPerson: {
-      name: "Dr. Maricel Z. Fernando",
-      email: "maricel.fernando@g.batstate-u.edu.ph",
+      name: "Mr. John Robert D. Atienza",
+      email: "johnrobert.atienza@g.batstate-u.edu.ph",
     },
     parametersCount: 6,
   },
@@ -55,8 +55,8 @@ export const areaPageData = {
     description:
       "The BSIT program is deeply committed to community involvement and extension services. Through financial literacy programs, business consultancy, and community outreach initiatives.",
     focalPerson: {
-      name: "Ms. Anna Reyes",
-      email: "anna.reyes@g.batstate-u.edu.ph",
+      name: "Mr. John Robert D. Atienza",
+      email: "johnrobert.atienza@g.batstate-u.edu.ph",
     },
     parametersCount: 4,
   },
@@ -65,8 +65,8 @@ export const areaPageData = {
     description:
       "The university library is an indispensable asset to the BSIT program. Its rich collection of print and digital resources, facilities, and comprehensive services support the academic and research needs of students and faculty.",
     focalPerson: {
-      name: "Ms. Patricia Garcia",
-      email: "patricia.garcia@g.batstate-u.edu.ph",
+      name: "Ms. Fe B. Ochia",
+      email: "fe.ochia@g.batstate-u.edu.ph",
     },
     parametersCount: 3,
   },
@@ -75,8 +75,8 @@ export const areaPageData = {
     description:
       "The physical plant and facilities of the BSIT program are well-equipped to support the academic and professional development of students. With modern classrooms, study areas, and recreational spaces.",
     focalPerson: {
-      name: "Engr. Roberto Martinez",
-      email: "roberto.martinez@g.batstate-u.edu.ph",
+      name: "Mr. Wrick Andrei M. Dipasupil",
+      email: "wrickandrei.dipasupil@g.batstate-u.edu.ph",
     },
     parametersCount: 4,
   },
@@ -85,8 +85,8 @@ export const areaPageData = {
     description:
       "The laboratories supporting the BSIT program play a critical role in enhancing students' technical skills, practical knowledge, and analytical capabilities through hands-on learning experiences.",
     focalPerson: {
-      name: "Engr. Carlos Ramos",
-      email: "carlos.ramos@g.batstate-u.edu.ph",
+      name: "Mr. Wrick Andrei M. Dipasupil",
+      email: "wrickandrei.dipasupil@g.batstate-u.edu.ph",
     },
     parametersCount: 5,
   },
@@ -95,8 +95,8 @@ export const areaPageData = {
     description:
       "The administration plays a pivotal role in ensuring the program's success, quality, and continuous improvement. Through effective leadership, strategic planning, and resource management.",
     focalPerson: {
-      name: "Dr. Elizabeth Torres",
-      email: "elizabeth.torres@g.batstate-u.edu.ph",
+      name: "Dr. Jodi Belina A. Bejer",
+      email: "jodibelina.bejer@g.batstate-u.edu.ph",
     },
     parametersCount: 4,
   },
