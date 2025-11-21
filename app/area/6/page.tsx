@@ -11,6 +11,7 @@ export default async function AreaPage6() {
       description={data.description}
       focalPerson={data.focalPerson}
       files={standardFiles}
+        titleHref="https://drive.google.com/drive/folders/1OdCC4qYGjN5oHz2YAiS6o4E_vknBoGHF?usp=drive_link"
       parameters={[
         {
           letter: "A",
