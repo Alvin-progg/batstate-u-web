@@ -70,18 +70,18 @@ export default async function AreaPage10() {
           letter: "G",
           title: "Institutional Plannng and Development",
           items: [
-            { name: "SYSTEM. Inputs and Processes", href: "#" },
-            { name: "IMPLEMENTATION", href: "#" },
-            { name: "OUTCOMES", href: "#" },
+            { name: "SYSTEM. Inputs and Processes", href: "https://drive.google.com/drive/folders/1a1CNE2nJcYdbmAMrw5hK9ynQBROsWJCd?usp=drive_link" },
+            { name: "IMPLEMENTATION", href: "https://drive.google.com/drive/folders/14N_SJgQFCXIEXwLf0Hm_RFwEgaX6yKo9?usp=drive_link" },
+            { name: "OUTCOMES", href: "https://drive.google.com/drive/folders/1NzoRSB6UycwZySBscEv2J7vx5P6q7-Fm?usp=drive_link" },
           ],
         },
         {
           letter: "H",
           title: "Performance of Administrative Personnel",
           items: [
-            { name: "SYSTEM. Inputs and Processes", href: "#" },
-            { name: "IMPLEMENTATION", href: "#" },
-            { name: "OUTCOMES", href: "#" },
+            { name: "SYSTEM. Inputs and Processes", href: "https://drive.google.com/drive/folders/1dtaon3B6BC5xO6Lxxp7lZ510lxKNXc5E?usp=drive_link" },
+            { name: "IMPLEMENTATION", href: "https://drive.google.com/drive/folders/1dWLWMRzcFvNJPLDfNzsemHUtyVejIPGn?usp=drive_link" },
+            { name: "OUTCOMES", href: "https://drive.google.com/drive/folders/1xhHC9NgiM8TkZlWrAq0FEEw8mO3lMNbz?usp=drive_link" },
           ],
         },
       ]}
