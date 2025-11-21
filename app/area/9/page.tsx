@@ -14,7 +14,7 @@ export default async function AreaPage9() {
       parameters={[
         {
           letter: "A",
-          title: "Parameter A Title",
+          title: "Laboratories, Shop/Facilities ",
           items: [
             { name: "SYSTEM. Inputs and Processes", href: "#" },
             { name: "IMPLEMENTATION", href: "#" },
@@ -23,7 +23,7 @@ export default async function AreaPage9() {
         },
         {
           letter: "B",
-          title: "Parameter B Title",
+          title: "Equiment and Supplies",
           items: [
             { name: "SYSTEM. Inputs and Processes", href: "#" },
             { name: "IMPLEMENTATION", href: "#" },
