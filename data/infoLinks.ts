@@ -24,15 +24,15 @@ export const infoLinks = [
     icon: FolderOpen,
     group: "Resources",
     dropdown: [
-      { name: "Curriculum", href: "#" },
+      { name: "Curriculum", href: "https://drive.google.com/file/d/1uS8iI8zV5EwdgqVHEPqkzJCw5hYkfmc9/view?usp=drive_link" },
       { name: "Certificate of Program Compliance", href: "#" },
       {
-        name: "CMO 17 s2017. Policies, Standards and Guidelines for BSIT",
-        href: "#",
+        name: "CMO 25 s2015. Policies, Standards and Guidelines for BSIT",
+        href: "https://drive.google.com/file/d/1cMyrs7ux2rvPO9OJOclowG9T7yjEit9u/view?usp=drive_link",
       },
       {
         name: "AACCUP Technical Review Board Action (PSV)",
-        href: "#",
+        href: "https://docs.google.com/document/d/1mlhuUsQLYlbPqXT6rwSiht66sbbVRMoH/edit?usp=drive_link&ouid=105050822881944852266&rtpof=true&sd=true",
       },
     ],
   },

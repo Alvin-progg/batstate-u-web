@@ -82,7 +82,7 @@ export default function Area() {
                   </span>
                 </h2>
                 <p className="text-gray-600 text-center lg:text-left leading-relaxed">
-                  Welcome to Batangas State University! The National Engineering University that develops leaders in the global knowledge economy.
+                  Welcome to Batangas State University  Mabini Campus! A proud part of the National Engineering University, shaping future leaders for the global knowledge economy.
                 </p>
               </div>
             </Link>
@@ -92,10 +92,11 @@ export default function Area() {
               <div className="w-full max-w-md aspect-video rounded-xl overflow-hidden shadow-md">
                 <iframe
                   className="w-full h-full"
-                  src="https://www.youtube.com/embed/Pb61NjXrJCg"
+                  src="https://drive.google.com/file/d/1QUDfAUfimjIMzVQMzwsLj2kEAYH66FDP/preview"
                   title="Batangas State University - The National Engineering University"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
+                    
                 ></iframe>
               </div>
             </div>
