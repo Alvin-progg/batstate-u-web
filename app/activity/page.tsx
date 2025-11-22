@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { useState } from "react";
 
 export default function Activity() {
@@ -35,7 +34,7 @@ export default function Activity() {
       icon: "/act22.png",
       platformIcon: "/zoom.png",
       details: [
-        <a href="https://us06web.zoom.us/j/82654946389?pwd=6Z8iEgbT9z2bcPItaItbniURru0bCy.1" target="_blank">
+        <a key="zoom-link" href="https://us06web.zoom.us/j/82654946389?pwd=6Z8iEgbT9z2bcPItaItbniURru0bCy.1" target="_blank" rel="noopener noreferrer">
   Click to Join Zoom Meeting
 </a>,
         "Meeting ID: 826 5494 6389",
@@ -153,7 +152,7 @@ export default function Activity() {
 
       {/* Activities Container */}
       <div className="max-w-7xl mx-auto px-4 py-12 space-y-12">
-        {activities.map((activity, index) => (
+        {activities.map((activity) => (
           <div 
             key={activity.day}
             className="bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden hover:shadow-xl transition-shadow duration-300"
@@ -187,8 +186,8 @@ export default function Activity() {
                 <p className="text-gray-700 font-medium">{activity.date}</p>
                 
                 {activity.activities ? (
-                  <div className="space-y-4 mt-4">
-                    {activity.activities.map((act, idx) => (
+                  <div key="activities-section" className="space-y-4 mt-4">
+                    {activity.activities && activity.activities.map((act, idx) => (
                       <div key={idx} className="border-l-4 border-red pl-4">
                         <h3 className="font-bold text-red">{act.name}</h3>
                         <p className="text-sm text-gray-600">{act.time}</p>
@@ -218,6 +217,7 @@ export default function Activity() {
                     onClick={() => openPDF(activity.pdfUrl)}
                   >
                     <div className="aspect-[3/4] bg-gray-100 rounded shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-200 flex items-center justify-center">
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
                         src={getGDriveThumbnail(activity.pdfUrl)}
                         alt={`Day ${activity.day} Chronicle`}
