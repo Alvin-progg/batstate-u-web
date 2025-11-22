@@ -20,7 +20,7 @@ export default async function AreaPage3() {
           href: "https://drive.google.com/file/d/1Hmxt9YcPC1K3M3AnH8VCSHsDs6yX-N_m/view?usp=drive_link",
         },
         { name: "Self-Survey", href: "https://link-to-file3" },
-        { name: "Supplemental Folder", href: "https://link-to-file4" },
+        //{ name: "Supplemental Folder", href: "https://link-to-file4" },
       ]}
       titleHref="https://drive.google.com/drive/folders/1Fa9Lm8NnFbqY67RJMbfJl5XS0NZxdIA6"
       parameters={[

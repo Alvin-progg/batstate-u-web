@@ -17,10 +17,10 @@ export default async function AreaPage4() {
         },
         {
           name: "Program Performance Profile",
-          href: "https://docs.google.com/document/d/1bQ8fq8-LXCYH0gK-iRYWchKZTJLztY_7/edit?usp=drive_link&ouid=116473025810016534374&rtpof=true&sd=true",
+          href: "https://drive.google.com/file/d/1HC9ed97Lum81rzo6c1ADI-wT-7vk7Kw3/view?usp=drive_link",
         },
         { name: "Self-Survey", href: "https://link-to-file3" },
-        { name: "Supplemental Folder", href: "https://link-to-file4" },
+        //{ name: "Supplemental Folder", href: "https://link-to-file4" },
       ]}
       titleHref="https://drive.google.com/drive/folders/1JgVMnuTU904roLRh-SPxqTxlZckG_mWg"
       parameters={[
