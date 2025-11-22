@@ -20,7 +20,7 @@ export default async function AreaPage8() {
           href: "https://docs.google.com/document/d/13h_VA4OBXywyelF6BXelOdMiuCmlEmbw/edit?usp=drive_link&ouid=116473025810016534374&rtpof=true&sd=true",
         },
         { name: "Self-Survey", href: "https://link-to-file3" },
-        { name: "Supplemental Folder", href: "https://link-to-file4" },
+        //{ name: "Supplemental Folder", href: "https://link-to-file4" },
       ]}
       titleHref="https://drive.google.com/drive/folders/1hnsT2m16waYsRdCJFPI35bFSXfDJiiSv?usp=drive_link"
       parameters={[
