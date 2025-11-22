@@ -2,10 +2,10 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+
 
 export default function Nav() {
-  const pathname = usePathname();
+
   return (
     <header>
       <nav className="fixed top-0 left-0 w-full h-16 bg-white shadow-md z-50">
