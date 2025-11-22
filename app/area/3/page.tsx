@@ -1,5 +1,5 @@
 import AreaPageTemplate from "@/components/AreaPageTemplate";
-import { areaPageData, standardFiles } from "@/data/areaPageData";
+import { areaPageData } from "@/data/areaPageData";
 
 export default async function AreaPage3() {
   const data = areaPageData[3];
