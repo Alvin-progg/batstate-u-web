@@ -35,7 +35,9 @@ export default function Activity() {
       icon: "/act22.png",
       platformIcon: "/zoom.png",
       details: [
-        "Zoom Link: https://us06web.zoom.us/j/82654946389?pwd=6Z8iEgbT9z2bcPItaItbniURru0bCy.1",
+        <a href="https://us06web.zoom.us/j/82654946389?pwd=6Z8iEgbT9z2bcPItaItbniURru0bCy.1" target="_blank">
+  Click to Join Zoom Meeting
+</a>,
         "Meeting ID: 826 5494 6389",
         "Passcode: 926964"
       ],
