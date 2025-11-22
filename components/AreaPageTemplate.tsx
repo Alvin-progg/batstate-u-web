@@ -19,7 +19,10 @@ interface AreaPageTemplateProps {
     name: string;
     email: string;
   };
-  files: string[];
+  files: Array<{
+    name: string;
+    href: string;
+  }>;
   parameters: Parameter[];
   videoUrl?: string;
   titleHref?: string;
@@ -52,7 +55,9 @@ export default function AreaPageTemplate({
               Areas
             </Link>
             <span>/</span>
-            <span className="text-red-600 font-semibold">Area {areaNumber}</span>
+            <span className="text-red-600 font-semibold">
+              Area {areaNumber}
+            </span>
           </nav>
         </div>
       </div>
@@ -128,11 +133,11 @@ export default function AreaPageTemplate({
               {files.map((file, index) => (
                 <li key={index}>
                   <Link
-                    href="#"
+                    href={file.href}
                     className="flex items-center gap-2 text-gray-700 hover:text-red-600 transition-colors group"
                   >
                     <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                    <span className="text-sm">{file}</span>
+                    <span className="text-sm">{file.name}</span>
                   </Link>
                 </li>
               ))}

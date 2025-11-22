@@ -123,10 +123,23 @@ export function generateParameters(count: number) {
   return parameters;
 }
 
-// Standard files for all areas
+// Standard filesNames for all areas
 export const standardFiles = [
-  "OBAQ Instrument for Level 1",
-  "Program Performance Profile",
-  "Self-Survey",
-  "Supplemental Folder",
+  {
+    name: "OBAQ Instrument for Level 1",
+    href: "#",
+  },
+  ,
+  {
+    name: "  Program Performance Profile",
+    href: "#",
+  },
+  {
+    name: "Self-Survey",
+    href: "#",
+  },
+  {
+    name: "Supplemental Folder",
+    href: "#",
+  },
 ];
