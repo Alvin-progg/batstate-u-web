@@ -16,7 +16,7 @@ export const infoLinks = [
   {
     title: "Directory of Accreditation Task Force",
     icon: Users,
-    href: "#",
+    href: "https://drive.google.com/file/d/1UHF8RA-tZBpMFYVZE8C02-3iAXzRJNh0/view?usp=sharing",
     group: "General Information",
   },
   {
@@ -39,7 +39,7 @@ export const infoLinks = [
   {
     title: "Downloads",
     icon: Download,
-    href: "#",
+    href: "https://drive.google.com/drive/folders/1ye1I7yYH7S8jV-xTdV6v3uFmQJlMbP3x",
     group: "Resources",
   },
 ];

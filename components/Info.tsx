@@ -54,6 +54,8 @@ export const Info = () => {
                       >
                         <a
                           href={link.href}
+                          target="_blank"
+                          rel="noopener noreferrer"
                           className="block hover:text-red-600 transition-colors"
                         >
                           {link.name}
@@ -66,6 +68,8 @@ export const Info = () => {
             ) : (
               <a
                 key={item.title}
+                                          target="_blank"
+                          rel="noopener noreferrer"
                 href={item.href}
                 className="flex flex-col items-center justify-center p-8 bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
               >
@@ -75,7 +79,7 @@ export const Info = () => {
                 </h3>
                 <p className="mt-2 text-sm text-gray-500">{item.group}</p>
               </a>
-            ),
+            )
           )}
         </div>
       </div>

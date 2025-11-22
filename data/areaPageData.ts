@@ -35,8 +35,8 @@ export const areaPageData = {
     description:
       "The BSIT program is dedicated to providing a comprehensive and supportive learning environment that nurtures academic success, personal growth, and professional development.",
     focalPerson: {
-      name: "Dr. Maria Santos",
-      email: "maria.santos@g.batstate-u.edu.ph",
+      name: "Mr. Jefferson I. Cañada",
+      email: "jefferson.cañada@g.batstate-u.edu.ph",
     },
     parametersCount: 4,
   },
@@ -45,8 +45,8 @@ export const areaPageData = {
     description:
       "Research is a vital component of the BSIT program, contributing to the academic and professional development of both students and faculty.",
     focalPerson: {
-      name: "Dr. James Cruz",
-      email: "james.cruz@g.batstate-u.edu.ph",
+      name: "Mr. Joshua C. Abella",
+      email: "joshua.abella@g.batstate-u.edu.ph",
     },
     parametersCount: 3,
   },
@@ -55,8 +55,8 @@ export const areaPageData = {
     description:
       "The BSIT program is deeply committed to community involvement and extension services. Through financial literacy programs, business consultancy, and community outreach initiatives.",
     focalPerson: {
-      name: "Mr. Robert Atienza",
-      email: "anna.reyes@g.batstate-u.edu.ph",
+      name: "Mr. John Robert D. Atienza",
+      email: "johnrobert.atienza@g.batstate-u.edu.ph",
     },
     parametersCount: 4,
   },
@@ -76,7 +76,7 @@ export const areaPageData = {
       "The physical plant and facilities of the BSIT program are well-equipped to support the academic and professional development of students. With modern classrooms, study areas, and recreational spaces.",
     focalPerson: {
       name: "Mr. Wrick Andrei M. Dipasupil",
-      email: "wrick.dipasupil@g.batstate-u.edu.ph",
+      email: "wrickandrei.dipasupil@g.batstate-u.edu.ph",
     },
     parametersCount: 4,
   },
@@ -86,7 +86,7 @@ export const areaPageData = {
       "The laboratories supporting the BSIT program play a critical role in enhancing students' technical skills, practical knowledge, and analytical capabilities through hands-on learning experiences.",
     focalPerson: {
       name: "Mr. Wrick Andrei M. Dipasupil",
-      email: "carlos.ramos@g.batstate-u.edu.ph",
+      email: "wrickandrei.dipasupil@g.batstate-u.edu.ph",
     },
     parametersCount: 5,
   },
@@ -95,8 +95,8 @@ export const areaPageData = {
     description:
       "The administration plays a pivotal role in ensuring the program's success, quality, and continuous improvement. Through effective leadership, strategic planning, and resource management.",
     focalPerson: {
-      name: "Dr. Elizabeth Torres",
-      email: "elizabeth.torres@g.batstate-u.edu.ph",
+      name: "Dr. Jodi Belina A. Bejer",
+      email: "jodibelina.bejer@g.batstate-u.edu.ph",
     },
     parametersCount: 4,
   },

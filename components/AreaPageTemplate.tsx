@@ -22,6 +22,7 @@ interface AreaPageTemplateProps {
   files: string[];
   parameters: Parameter[];
   videoUrl?: string;
+  titleHref?: string;
 }
 
 export default function AreaPageTemplate({
@@ -32,6 +33,7 @@ export default function AreaPageTemplate({
   files,
   parameters,
   videoUrl = "https://www.youtube.com/embed/Pb61NjXrJCg",
+  titleHref,
 }: AreaPageTemplateProps) {
   const prevArea = areaNumber > 1 ? `/area/${areaNumber - 1}` : "/area";
   const nextArea = areaNumber < 10 ? `/area/${areaNumber + 1}` : null;
@@ -61,12 +63,30 @@ export default function AreaPageTemplate({
           <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-6">
             {/* Title */}
             <div>
-              <div className="flex items-center gap-3 mb-2">
-                <span className="text-5xl font-bold">{areaNumber}</span>
-                <div className="h-12 w-1 bg-white/50"></div>
-                <h1 className="text-3xl font-bold">Area {areaNumber}</h1>
-              </div>
-              <p className="text-xl text-red-100 mt-2">{title}</p>
+              {titleHref ? (
+                <Link
+                  href={titleHref}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block hover:opacity-90 transition-opacity"
+                >
+                  <div className="flex items-center gap-3 mb-2">
+                    <span className="text-5xl font-bold">{areaNumber}</span>
+                    <div className="h-12 w-1 bg-white/50"></div>
+                    <h1 className="text-3xl font-bold">Area {areaNumber}</h1>
+                  </div>
+                  <p className="text-xl text-red-100 mt-2">{title}</p>
+                </Link>
+              ) : (
+                <>
+                  <div className="flex items-center gap-3 mb-2">
+                    <span className="text-5xl font-bold">{areaNumber}</span>
+                    <div className="h-12 w-1 bg-white/50"></div>
+                    <h1 className="text-3xl font-bold">Area {areaNumber}</h1>
+                  </div>
+                  <p className="text-xl text-red-100 mt-2">{title}</p>
+                </>
+              )}
             </div>
 
             {/* Focal Person Card */}
