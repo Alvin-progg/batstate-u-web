@@ -92,7 +92,7 @@ export default function Area() {
               <div className="w-full max-w-md aspect-video rounded-xl overflow-hidden shadow-md">
                 <iframe
                   className="w-full h-full"
-                  src="https://www.youtube.com/embed/Pb61NjXrJCg"
+                  src="https://drive.google.com/file/d/1QUDfAUfimjIMzVQMzwsLj2kEAYH66FDP/preview"
                   title="Batangas State University - The National Engineering University"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
