@@ -35,9 +35,9 @@ export default function Activity() {
       icon: "/act22.png",
       platformIcon: "/zoom.png",
       details: [
-        "Zoom Link: CLICK TO JOIN THE ZOOM MEET",
-        "Meeting ID: 862 1115 7709",
-        "Passcode: 823600"
+        "Zoom Link: https://us06web.zoom.us/j/82654946389?pwd=6Z8iEgbT9z2bcPItaItbniURru0bCy.1",
+        "Meeting ID: 826 5494 6389",
+        "Passcode: 926964"
       ],
       pdfUrl: "https://drive.google.com/file/d/YOUR_FILE_ID_DAY2/preview"
     },
