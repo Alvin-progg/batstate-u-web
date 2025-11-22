@@ -82,7 +82,7 @@ export default function Area() {
                   </span>
                 </h2>
                 <p className="text-gray-600 text-center lg:text-left leading-relaxed">
-                  Welcome to Batangas State University! The National Engineering University that develops leaders in the global knowledge economy.
+                  Welcome to Batangas State University  Mabini Campus! A proud part of the National Engineering University, shaping future leaders for the global knowledge economy.
                 </p>
               </div>
             </Link>
