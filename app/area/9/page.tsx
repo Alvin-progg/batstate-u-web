@@ -3,7 +3,7 @@ import { areaPageData, standardFiles } from "@/data/areaPageData";
 
 export default async function AreaPage9() {
   const data = areaPageData[9];
-  
+
   return (
     <AreaPageTemplate
       areaNumber={9}

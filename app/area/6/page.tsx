@@ -3,7 +3,7 @@ import { areaPageData, standardFiles } from "@/data/areaPageData";
 
 export default async function AreaPage6() {
   const data = areaPageData[6];
-  
+
   return (
     <AreaPageTemplate
       areaNumber={6}
@@ -15,38 +15,74 @@ export default async function AreaPage6() {
       parameters={[
         {
           letter: "A",
-          title: "Parameter A Title",
+          title: "Priorities and Relevance",
           items: [
-            { name: "SYSTEM. Inputs and Processes", href: "#" },
-            { name: "IMPLEMENTATION", href: "#" },
-            { name: "OUTCOMES", href: "#" },
+            {
+              name: "SYSTEM. Inputs and Processes",
+              href: "https://drive.google.com/drive/folders/1_Po_jATMEbD63URXmlsJBMBqDeh7zO8F",
+            },
+            {
+              name: "IMPLEMENTATION",
+              href: "https://drive.google.com/drive/folders/1_Po_jATMEbD63URXmlsJBMBqDeh7zO8F",
+            },
+            {
+              name: "OUTCOMES",
+              href: "https://drive.google.com/drive/folders/1_Po_jATMEbD63URXmlsJBMBqDeh7zO8F",
+            },
           ],
         },
         {
           letter: "B",
-          title: "Parameter B Title",
+          title: "Planning, Implementation, Monitoring and Evaluation",
           items: [
-            { name: "SYSTEM. Inputs and Processes", href: "#" },
-            { name: "IMPLEMENTATION", href: "#" },
-            { name: "OUTCOMES", href: "#" },
+            {
+              name: "SYSTEM. Inputs and Processes",
+              href: "https://drive.google.com/drive/folders/1mtlwKwwobosxsVXvW47E81GxEffyMnN7",
+            },
+            {
+              name: "IMPLEMENTATION",
+              href: "https://drive.google.com/drive/folders/1mtlwKwwobosxsVXvW47E81GxEffyMnN7",
+            },
+            {
+              name: "OUTCOMES",
+              href: "https://drive.google.com/drive/folders/1mtlwKwwobosxsVXvW47E81GxEffyMnN7",
+            },
           ],
         },
         {
           letter: "C",
-          title: "Parameter C Title",
+          title: "Funding and Other Resources",
           items: [
-            { name: "SYSTEM. Inputs and Processes", href: "#" },
-            { name: "IMPLEMENTATION", href: "#" },
-            { name: "OUTCOMES", href: "#" },
+            {
+              name: "SYSTEM. Inputs and Processes",
+              href: "https://drive.google.com/drive/folders/1JHvjVI3ypOpSjBxY8w91UnQWPP_BLato",
+            },
+            {
+              name: "IMPLEMENTATION",
+              href: "https://drive.google.com/drive/folders/1JHvjVI3ypOpSjBxY8w91UnQWPP_BLato",
+            },
+            {
+              name: "OUTCOMES",
+              href: "https://drive.google.com/drive/folders/1JHvjVI3ypOpSjBxY8w91UnQWPP_BLato",
+            },
           ],
         },
         {
           letter: "D",
-          title: "Parameter D Title",
+          title: "Community Involvement and Participation",
           items: [
-            { name: "SYSTEM. Inputs and Processes", href: "#" },
-            { name: "IMPLEMENTATION", href: "#" },
-            { name: "OUTCOMES", href: "#" },
+            {
+              name: "SYSTEM. Inputs and Processes",
+              href: "https://drive.google.com/drive/folders/11k0nbSUrpbOvhZqYWG9Pr2d-bG4WiwOZ",
+            },
+            {
+              name: "IMPLEMENTATION",
+              href: "https://drive.google.com/drive/folders/11k0nbSUrpbOvhZqYWG9Pr2d-bG4WiwOZ",
+            },
+            {
+              name: "OUTCOMES",
+              href: "https://drive.google.com/drive/folders/11k0nbSUrpbOvhZqYWG9Pr2d-bG4WiwOZ",
+            },
           ],
         },
       ]}

@@ -107,7 +107,7 @@ export const areaPageData = {
 export function generateParameters(count: number) {
   const parameters = [];
   const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-  
+
   for (let i = 0; i < count; i++) {
     parameters.push({
       letter: letters[i],
@@ -119,7 +119,7 @@ export function generateParameters(count: number) {
       ],
     });
   }
-  
+
   return parameters;
 }
 
