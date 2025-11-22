@@ -39,7 +39,7 @@ export const infoLinks = [
   {
     title: "Downloads",
     icon: Download,
-    href: "https://drive.google.com/drive/folders/1ye1I7yYH7S8jV-xTdV6v3uFmQJlMbP3x",
+    href: "https://drive.google.com/drive/folders/1DJYyDG3oAP0hKlhcVSpxsY8J_guBbPmE?usp=drive_link",
     group: "Resources",
   },
 ];
