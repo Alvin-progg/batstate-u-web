@@ -13,6 +13,19 @@ export default function Activity() {
   const closePDF = () => {
     setSelectedPDF(null);
   };
+
+  // Convert Google Drive preview URL to thumbnail URL
+  const getGDriveThumbnail = (url: string) => {
+    if (!url) return '';
+    const fileIdMatch = url.match(/\/d\/([^\/]+)/);
+    if (fileIdMatch) {
+      const fileId = fileIdMatch[1];
+      // Use a combination of methods that work for public files
+      return `https://lh3.googleusercontent.com/d/${fileId}=w400?authuser=0`;
+    }
+    return url;
+  };
+
   const activities = [
     {
       day: 1,
@@ -26,7 +39,7 @@ export default function Activity() {
         "Meeting ID: 862 1115 7709",
         "Passcode: 823600"
       ],
-      pdfUrl: "https://drive.google.com/file/d/YOUR_FILE_ID_DAY1/preview"
+      pdfUrl: "https://drive.google.com/file/d/YOUR_FILE_ID_DAY2/preview"
     },
     {
       day: 2,
@@ -110,6 +123,7 @@ export default function Activity() {
       ],
       pdfUrl: "https://drive.google.com/file/d/YOUR_FILE_ID_DAY6/preview"
     },
+
     {
       day: 7,
       title: "EXIT CONFERENCE",
@@ -194,46 +208,61 @@ export default function Activity() {
                 )}
               </div>
 
-              {/* Right Section - Chronicle PDF Preview */}
-              <div className="flex items-center justify-center">
-                <div 
-                  className="relative rounded-lg overflow-hidden w-full max-w-xs cursor-pointer group"
-                  onClick={() => openPDF(activity.pdfUrl)}
-                >
-                  <div className="aspect-[3/4] bg-white rounded shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-200">
-                    <iframe
-                      src={activity.pdfUrl}
-                      className="w-full h-full pointer-events-none"
-                      title={`Day ${activity.day} Chronicle Preview`}
-                    />
-                  </div>
-                  {/* Hover Overlay */}
-                  <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition-all duration-200 flex items-center justify-center">
-                    <div className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-200 text-center">
-                      <svg 
-                        className="w-16 h-16 mx-auto mb-2" 
-                        fill="none" 
-                        stroke="currentColor" 
-                        viewBox="0 0 24 24"
-                      >
-                        <path 
-                          strokeLinecap="round" 
-                          strokeLinejoin="round" 
-                          strokeWidth={2} 
-                          d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" 
-                        />
-                        <path 
-                          strokeLinecap="round" 
-                          strokeLinejoin="round" 
-                          strokeWidth={2} 
-                          d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" 
-                        />
-                      </svg>
-                      <p className="font-medium">Click to view full PDF</p>
+              {/* Right Section - Chronicle Document Preview */}
+              {activity.pdfUrl && !activity.pdfUrl.includes('YOUR_FILE_ID') && (
+                <div className="flex items-center justify-center">
+                  <div 
+                    className="relative rounded-lg overflow-hidden w-full max-w-xs cursor-pointer group"
+                    onClick={() => openPDF(activity.pdfUrl)}
+                  >
+                    <div className="aspect-[3/4] bg-gray-100 rounded shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-200 flex items-center justify-center">
+                      <img
+                        src={getGDriveThumbnail(activity.pdfUrl)}
+                        alt={`Day ${activity.day} Chronicle`}
+                        className="w-full h-full object-cover"
+                        onError={(e) => {
+                          // Fallback to document icon if thumbnail fails
+                          e.currentTarget.style.display = 'none';
+                          e.currentTarget.parentElement!.innerHTML = `
+                            <div class="text-center p-6">
+                              <svg class="w-20 h-20 mx-auto text-red mb-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clip-rule="evenodd"/>
+                              </svg>
+                              <p class="text-gray-700 font-bold">Day ${activity.day}</p>
+                              <p class="text-gray-500 text-sm mt-2">Accreditation Chronicle</p>
+                            </div>
+                          `;
+                        }}
+                      />
+                    </div>
+                    {/* Hover Overlay */}
+                    <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition-all duration-200 flex items-center justify-center">
+                      <div className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-200 text-center">
+                        <svg 
+                          className="w-16 h-16 mx-auto mb-2" 
+                          fill="none" 
+                          stroke="currentColor" 
+                          viewBox="0 0 24 24"
+                        >
+                          <path 
+                            strokeLinecap="round" 
+                            strokeLinejoin="round" 
+                            strokeWidth={2} 
+                            d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" 
+                          />
+                          <path 
+                            strokeLinecap="round" 
+                            strokeLinejoin="round" 
+                            strokeWidth={2} 
+                            d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" 
+                          />
+                        </svg>
+                        <p className="font-medium">Click to view document</p>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
+              )}
             </div>
           </div>
         ))}

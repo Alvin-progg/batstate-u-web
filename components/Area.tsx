@@ -96,6 +96,7 @@ export default function Area() {
                   title="Batangas State University - The National Engineering University"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
+                    
                 ></iframe>
               </div>
             </div>
