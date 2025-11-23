@@ -17,7 +17,7 @@ export default async function AreaPage9() {
         },
         {
           name: "Program Performance Profile",
-          href: "https://docs.google.com/document/d/1AIhbwhjC5TfS79hJpGQyCdB07rZrWYwM/edit?usp=drive_link&ouid=116473025810016534374&rtpof=true&sd=true",
+          href: "https://drive.google.com/file/d/1H_NsxZ_RsNNkC5kAvSDzDmKOuCxKUp_5/view?usp=drive_link",
         },
         { name: "Self-Survey", href: "https://drive.google.com/file/d/1l4uFmjuTH1rUYtREPb7yZXdwfokIC7B3/view?usp=drive_link" },
         //{ name: "Supplemental Folder", href: "https://link-to-file4" },
