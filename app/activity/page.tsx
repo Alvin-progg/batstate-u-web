@@ -29,7 +29,7 @@ export default function Activity() {
     {
       day: 1,
       title: "OPENING PROGRAM",
-      date: "25 November 2024 (9:00 AM)",
+      date: "24 November 2025 (9:00 AM)",
       platform: "Zoom",
       icon: "/act22.png",
       platformIcon: "/zoom.png",
@@ -45,7 +45,7 @@ export default function Activity() {
     {
       day: 2,
       title: "CLASS OBSERVATION & INTERVIEW",
-      date: "26 November 2024",
+      date: "25 November 2025",
       platform: "Google Meet",
       icon: "/class-icon.png",
       platformIcon: "/gmeet.png",
@@ -69,7 +69,7 @@ export default function Activity() {
     {
       day: 3,
       title: "VIRTUAL CAMPUS TOUR & INTERVIEW",
-      date: "27 November 2024 (8:30 AM)",
+      date: "26 November 2025 (8:30 AM)",
       platform: "Google Meet",
       icon: "/campus-icon.png",
       platformIcon: "/gmeet.png",
@@ -83,7 +83,7 @@ export default function Activity() {
     {
       day: 4,
       title: "DOCUMENT VERIFICATION",
-      date: "28 November 2024 (9:00 AM)",
+      date: "27 November 2025 (9:00 AM)",
       platform: "On-site",
       icon: "/docs-icon.png",
       details: [
@@ -97,7 +97,7 @@ export default function Activity() {
     {
       day: 5,
       title: "FACULTY PRESENTATION",
-      date: "29 November 2024 (10:00 AM)",
+      date: "28 November 2025 (10:00 AM)",
       platform: "Hybrid",
       icon: "/presentation-icon.png",
       platformIcon: "/zoom.png",
@@ -112,7 +112,7 @@ export default function Activity() {
     {
       day: 6,
       title: "STAKEHOLDER CONSULTATION",
-      date: "30 November 2024 (2:00 PM)",
+      date: "29 November 2025 (2:00 PM)",
       platform: "Google Meet",
       icon: "/consult-icon.png",
       platformIcon: "/gmeet.png",
@@ -125,22 +125,22 @@ export default function Activity() {
       pdfUrl: "https://drive.google.com/file/d/YOUR_FILE_ID_DAY6/preview"
     },
 
-    {
-      day: 7,
-      title: "EXIT CONFERENCE",
-      date: "01 December 2024 (3:00 PM)",
-      platform: "Zoom",
-      icon: "/exit-icon.png",
-      platformIcon: "/zoom.png",
-      details: [
-        "Preliminary findings presentation",
-        "Recommendations and feedback",
-        "Next steps and timeline",
-        "Zoom Link: CLICK TO JOIN THE ZOOM MEET",
-        "Meeting ID: TBA"
-      ],
-      pdfUrl: "https://drive.google.com/file/d/YOUR_FILE_ID_DAY7/preview"
-    }
+    //{
+    //  day: 7,
+     // title: "EXIT CONFERENCE",
+     // date: "01 December 2024 (3:00 PM)",
+      //platform: "Zoom",
+     // icon: "/exit-icon.png",
+    //  platformIcon: "/zoom.png",
+    //  details: [
+       // "Preliminary findings presentation",
+       // "Recommendations and feedback",
+       // "Next steps and timeline",
+       // "Zoom Link: CLICK TO JOIN THE ZOOM MEET",
+      //  "Meeting ID: TBA"
+     // ],
+     // pdfUrl: "https://drive.google.com/file/d/YOUR_FILE_ID_DAY7/preview"
+    //}
   ];
 
   return (
