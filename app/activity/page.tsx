@@ -108,39 +108,7 @@ export default function Activity() {
         "Q&A Session"
       ],
       pdfUrl: "https://drive.google.com/file/d/YOUR_FILE_ID_DAY5/preview"
-    },
-    {
-      day: 6,
-      title: "STAKEHOLDER CONSULTATION",
-      date: "29 November 2025 (2:00 PM)",
-      platform: "Google Meet",
-      icon: "/consult-icon.png",
-      platformIcon: "/gmeet.png",
-      details: [
-        "Industry partners feedback",
-        "Alumni engagement session",
-        "Community representative inputs",
-        "GMeet Link: CLICK TO JOIN THE MEET"
-      ],
-      pdfUrl: "https://drive.google.com/file/d/YOUR_FILE_ID_DAY6/preview"
-    },
 
-    //{
-    //  day: 7,
-     // title: "EXIT CONFERENCE",
-     // date: "01 December 2024 (3:00 PM)",
-      //platform: "Zoom",
-     // icon: "/exit-icon.png",
-    //  platformIcon: "/zoom.png",
-    //  details: [
-       // "Preliminary findings presentation",
-       // "Recommendations and feedback",
-       // "Next steps and timeline",
-       // "Zoom Link: CLICK TO JOIN THE ZOOM MEET",
-      //  "Meeting ID: TBA"
-     // ],
-     // pdfUrl: "https://drive.google.com/file/d/YOUR_FILE_ID_DAY7/preview"
-    //}
   ];
 
   return (
