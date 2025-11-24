@@ -108,7 +108,7 @@ export default function Activity() {
         "Q&A Session"
       ],
       pdfUrl: "https://drive.google.com/file/d/YOUR_FILE_ID_DAY5/preview"
-    }
+
   ];
 
   return (
