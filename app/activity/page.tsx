@@ -107,7 +107,7 @@ export default function Activity() {
         "Innovation showcases",
         "Q&A Session"
       ],
-      pdfUrl: "https://drive.google.com/file/d/YOUR_FILE_ID_DAY5/preview"
+      pdfUrl: "https://drive.google.com/file/d/YOUR_FILE_ID_DAY5/preview"}
 
   ];
 
