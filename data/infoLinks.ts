@@ -4,6 +4,8 @@ import {
   Download,
   Users,
   ChevronDown,
+  FolderArchive,
+  FolderCheck,
 } from "lucide-react";
 
 export const infoLinks = [
@@ -37,10 +39,10 @@ export const infoLinks = [
     ],
   },
   {
-    title: "Downloadable Resources",
-    icon: Download,
-    href: "https://drive.google.com/drive/folders/1DJYyDG3oAP0hKlhcVSpxsY8J_guBbPmE?usp=drive_link",
-    group: "Resources",
+    title: "AACCUP Concerns and Additional Documents ",
+    icon: FolderCheck,
+    href: "https://drive.google.com/drive/folders/1FnLu6r7qlhFIo71S_7KJk3G8w66StG2X?usp=drive_link",
+    group: "Provided Documents per Areas",
   },
 ];
 
