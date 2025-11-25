@@ -39,7 +39,7 @@ export const infoLinks = [
     ],
   },
   {
-    title: "AACCUP Concerns and Additional Documents ",
+    title: "AACCUP Additional Documents ",
     icon: FolderCheck,
     href: "https://drive.google.com/drive/folders/1FnLu6r7qlhFIo71S_7KJk3G8w66StG2X?usp=drive_link",
     group: "Provided Documents per Areas",
